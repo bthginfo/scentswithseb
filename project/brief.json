@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "projectName": "Scents with Seb",
+  "pages": [
+    "Start",
+    "Duftfinder",
+    "Reels",
+    "Duftwissen",
+    "Über Seb",
+    "Shop",
+    "Kontakt"
+  ],
+  "functions": [
+    "DE/EN",
+    "Visuelles CMS",
+    "Video-Reels mit Zustimmung",
+    "Interaktiver Duftfinder",
+    "Shop mit Checkout und Bestellverwaltung"
+  ],
+  "contentSources": [
+    "https://www.instagram.com/scentswithseb/",
+    "https://www.instagram.com/reel/Df96oFWshiT/",
+    "https://www.instagram.com/reel/Df5C-cstxN6/",
+    "https://lattafa.com/product/khamrah/",
+    "https://www.montblanc.com/en-us/fragrances/collection/explorer"
+  ],
+  "assets": [],
+  "openQuestions": [],
+  "legalName": "Sebastian Maschberger",
+  "audience": "Neugierige Duftinteressierte, alltagsorientiert und preisbewusst, DE und EN.",
+  "offer": "Persönliche Duftvideos, Orientierung für Kaufentscheidungen, ein Finder für Duftfamilien und ein Shop.",
+  "style": "Magazin im warmen Creme mit kupferfarbenen Akzenten, Cormorant Garamond, dunkler Parfumfotografie und kompakten iOS-artigen Glaselementen. Die Reel-Vorschauen sind echte Motive des Creators.",
+  "siteUrl": "https://scents-with-seb.vercel.app",
+  "voice": "Anbieterperspektive, direkte du-Ansprache im Deutschen, freundlich und konkret.",
+  "aesthetic": "liquid-glass",
+  "hero": {
+    "heading": "Gut riechen. Besser wählen.",
+    "text": "Ehrliche Duftreviews und Ideen für deinen Alltag, vom ersten Sprühstoß bis zum Drydown.",
+    "image": {
+      "file": "scents-hero.webp",
+      "alt": "Warmer Lichtreflex auf einem Parfumflakon aus dunklem Glas",
+      "position": "50% 50%"
+    }
+  },
+  "colors": {
+    "primary": "#2b1c18",
+    "accent": "#e7b281",
+    "background": "#f6f1e9"
+  },
+  "profile": "editorial"
+}

@@ -1,0 +1,4956 @@
+{
+  "version": 1,
+  "config": {
+    "defaultAdminLanguage": "de",
+    "defaultWebsiteLanguage": "de",
+    "name": "Scents with Seb",
+    "legalName": "Sebastian Maschberger",
+    "tagline": "DUFTMAGAZIN",
+    "phone": "",
+    "email": "",
+    "fax": "",
+    "address": "",
+    "city": "",
+    "postalCode": "",
+    "navigation": [
+      {
+        "href": "/duftfinder",
+        "label": "Duftfinder"
+      },
+      {
+        "href": "/reels",
+        "label": "Reels"
+      },
+      {
+        "href": "/duftwissen",
+        "label": "Duftwissen"
+      },
+      {
+        "href": "/shop",
+        "label": "Shop"
+      },
+      {
+        "href": "/kontakt",
+        "label": "Kontakt"
+      }
+    ],
+    "footerText": "Duftreviews und Tipps zum Testen, Vergleichen und Auswählen. Von Sebastian Maschberger.",
+    "openingHours": [],
+    "theme": {
+      "primary": "#2b1c18",
+      "accent": "#e7b281",
+      "background": "#f6f1e9",
+      "radius": 28,
+      "font": "manrope",
+      "presentation": "editorial",
+      "aesthetic": "liquid-glass",
+      "glass": {
+        "enabled": true,
+        "background": "aurora",
+        "intensity": 14,
+        "speed": 25,
+        "depth": 20,
+        "reveal": true,
+        "feedback": true,
+        "revealDuration": 500
+      },
+      "palettes": {
+        "1": {
+          "primary": "#2b1c18",
+          "accent": "#e7b281",
+          "background": "#f6f1e9",
+          "text": "#2b1c18",
+          "surface": "#f0e6d9",
+          "border": "#e3d4c5"
+        }
+      }
+    },
+    "designVariant": 1,
+    "consent": {
+      "enabled": true,
+      "title": "Deine Privatsphäre",
+      "text": "Optionale Statistik und eingebettete Medien wählst du selbst.",
+      "english": {
+        "title": "Your privacy",
+        "text": "Choose whether to allow optional analytics and embedded media."
+      }
+    },
+    "analytics": {
+      "googleId": "",
+      "matomoUrl": "",
+      "matomoSiteId": ""
+    },
+    "blog": {
+      "enabled": false,
+      "title": "Wissen und Einblicke.",
+      "description": "Beiträge Ihres Unternehmens.",
+      "slug": "blog",
+      "layout": "cards",
+      "showInNavigation": true,
+      "navLabel": "Wissen"
+    },
+    "footer": {
+      "brandText": "Scents with Seb",
+      "ctaLabel": "Zur Anfrage",
+      "ctaHref": "/kontakt",
+      "addressHeading": "Anschrift",
+      "contactHeading": "Kontakt",
+      "navigationHeading": "Entdecken",
+      "copyright": "© {year} {name}",
+      "showAddress": false,
+      "showContact": false,
+      "showHours": false,
+      "showCookieSettings": true,
+      "showBackToTop": true,
+      "columns": [
+        {
+          "id": "content",
+          "title": "Entdecken",
+          "links": [
+            {
+              "href": "/duftfinder",
+              "label": "Duftfinder"
+            },
+            {
+              "href": "/reels",
+              "label": "Reels"
+            },
+            {
+              "href": "/duftwissen",
+              "label": "Duftwissen"
+            },
+            {
+              "href": "/shop",
+              "label": "Shop"
+            }
+          ]
+        },
+        {
+          "id": "other",
+          "title": "Informationen",
+          "links": [
+            {
+              "href": "/ueber-sebastian",
+              "label": "Über Seb"
+            },
+            {
+              "href": "/partner",
+              "label": "Partner"
+            },
+            {
+              "href": "/warenkorb",
+              "label": "Warenkorb"
+            },
+            {
+              "href": "/kontakt",
+              "label": "Kontakt"
+            },
+            {
+              "href": "https://www.instagram.com/scentswithseb/",
+              "label": "Instagram"
+            }
+          ]
+        }
+      ],
+      "legalLinks": [
+        {
+          "href": "/impressum",
+          "label": "Impressum"
+        },
+        {
+          "href": "/datenschutz",
+          "label": "Datenschutz"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "tagline": "FRAGRANCE JOURNAL",
+        "navigation": [
+          {
+            "href": "/en/scent-finder",
+            "label": "Scent finder"
+          },
+          {
+            "href": "/en/reels",
+            "label": "Reels"
+          },
+          {
+            "href": "/en/fragrance-notes",
+            "label": "Fragrance notes"
+          },
+          {
+            "href": "/en/shop",
+            "label": "Shop"
+          },
+          {
+            "href": "/en/contact",
+            "label": "Contact"
+          }
+        ],
+        "footerText": "Fragrance reviews and tips for testing, comparing and choosing. By Sebastian Maschberger.",
+        "openingHours": [],
+        "footer": {
+          "brandText": "Scents with Seb",
+          "ctaLabel": "Get in touch",
+          "ctaHref": "/en/contact",
+          "addressHeading": "Address",
+          "contactHeading": "Contact",
+          "navigationHeading": "Explore",
+          "copyright": "© {year} {name}",
+          "showAddress": false,
+          "showContact": false,
+          "showHours": false,
+          "showCookieSettings": true,
+          "showBackToTop": true,
+          "columns": [
+            {
+              "id": "content",
+              "title": "Explore",
+              "links": [
+                {
+                  "href": "/en/scent-finder",
+                  "label": "Scent finder"
+                },
+                {
+                  "href": "/en/reels",
+                  "label": "Reels"
+                },
+                {
+                  "href": "/en/fragrance-notes",
+                  "label": "Fragrance notes"
+                },
+                {
+                  "href": "/en/shop",
+                  "label": "Shop"
+                }
+              ]
+            },
+            {
+              "id": "other",
+              "title": "Information",
+              "links": [
+                {
+                  "href": "/en/about",
+                  "label": "About Seb"
+                },
+                {
+                  "href": "/en/partners",
+                  "label": "Partners"
+                },
+                {
+                  "href": "/en/cart",
+                  "label": "Cart"
+                },
+                {
+                  "href": "/en/contact",
+                  "label": "Contact"
+                },
+                {
+                  "href": "https://www.instagram.com/scentswithseb/",
+                  "label": "Instagram"
+                }
+              ]
+            }
+          ],
+          "legalLinks": [
+            {
+              "href": "/en/legal-notice",
+              "label": "Legal notice"
+            },
+            {
+              "href": "/en/privacy",
+              "label": "Privacy"
+            }
+          ]
+        }
+      }
+    },
+    "modules": {
+      "commerce": {
+        "enabled": true,
+        "currency": "EUR",
+        "shippingCents": 0,
+        "products": []
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "home-de",
+      "slug": "",
+      "title": "Scents with Seb · Parfum & ehrliche Duftreviews",
+      "locale": "de-DE",
+      "translationKey": "home",
+      "seo": {
+        "title": "Scents with Seb · Parfum & ehrliche Duftreviews",
+        "description": "Sebastian Maschberger zeigt preisbewusste Duftideen. Entdecke Reels, Duftfamilien und Tipps zum Parfumtest.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Gut riechen.\nBesser wählen.",
+            "text": "Duftreviews und Ideen für deinen Alltag, vom ersten Sprühstoß bis zum Drydown.",
+            "subheading": "DAS DUFTMAGAZIN VON SEB",
+            "image": {
+              "src": "/media/project/hero.webp",
+              "alt": "Dunkler Parfumflakon im warmen Licht",
+              "position": "50% 50%"
+            },
+            "primaryLabel": "Duftfinder öffnen",
+            "primaryHref": "/duftfinder",
+            "secondaryLabel": "Reels ansehen",
+            "secondaryHref": "/reels"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "panorama",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        },
+        {
+          "id": "families",
+          "type": "cards",
+          "name": "Was riechst du gern?",
+          "visible": true,
+          "content": {
+            "heading": "Was riechst du gern?",
+            "text": "Starte bei den Noten, die dich neugierig machen.",
+            "items": [
+              {
+                "id": "fresh",
+                "title": "Frisch & grün",
+                "text": "Zitrus, grüne Blätter oder Vetiver. Eine helle Richtung für Tage, an denen du deinen Duft nah bei dir tragen möchtest.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Heller Flakon mit Limetten und grünen Blättern",
+                  "position": "50% 50%"
+                },
+                "meta": "ZITRUS · GRÜN",
+                "href": "/duftfinder",
+                "label": "Frische Düfte finden"
+              },
+              {
+                "id": "wood",
+                "title": "Trocken & holzig",
+                "text": "Zeder, Sandelholz oder Vetiver. Achte darauf, wie warm oder trocken das Holz auf deiner Haut wirkt.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "ZEDER · VETIVER",
+                "href": "/duftfinder",
+                "label": "Holzige Düfte finden"
+              },
+              {
+                "id": "warm",
+                "title": "Warm & würzig",
+                "text": "Zimt, Vanille, Harze und Amber-Akkorde. Diese Richtung verändert sich oft besonders deutlich über den Abend.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "AMBER · GEWÜRZE",
+                "href": "/duftfinder",
+                "label": "Warme Düfte finden"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "latest",
+          "type": "cards",
+          "name": "Aus dem Duftregal",
+          "visible": true,
+          "content": {
+            "heading": "Aus dem Duftregal",
+            "text": "Meine Reels über Düfte fürs Training, den Abend und das nächste Abenteuer.",
+            "items": [
+              {
+                "id": "reel-2",
+                "title": "Düfte fürs Gym",
+                "text": "Welchen Duft trägst du am häufigsten beim Training?",
+                "image": {
+                  "src": "/media/project/reel-2.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-4",
+                "title": "Date-Night-Düfte unter 60 $",
+                "text": "Fünf preisbewusste Abenddüfte aus meinem Reel. Die Preisgrenze bezieht sich auf das Video.",
+                "image": {
+                  "src": "/media/project/reel-4.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df5C-cstxN6/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-5",
+                "title": "Welcher Duft kommt mit auf Reisen?",
+                "text": "Ein Gespräch über Reisedüfte und persönliche Favoriten.",
+                "image": {
+                  "src": "/media/project/reel-5.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df4zSG3M1Ea/",
+                "label": "Reel ansehen"
+              }
+            ],
+            "primaryLabel": "Alle Reels ansehen",
+            "primaryHref": "/reels"
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "about",
+          "type": "split",
+          "name": "Hey, ich bin Seb.",
+          "visible": true,
+          "content": {
+            "heading": "Hey, ich bin Seb.",
+            "text": "Ich probiere Düfte für ganz normale Tage und für Anlässe, auf die ich mich freue. Hier findest du meine Videos und einen einfachen Einstieg ins Testen und Vergleichen.",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian spricht vor seinem Duftregal",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "Mehr über Seb",
+            "primaryHref": "/ueber-sebastian"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "left",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guides",
+          "type": "cards",
+          "name": "Duftwissen für den Alltag",
+          "visible": true,
+          "content": {
+            "heading": "Duftwissen für den Alltag",
+            "items": [
+              {
+                "id": "testing",
+                "title": "Parfum testen und vergleichen",
+                "text": "Vom Duftstreifen bis zum Drydown auf der Haut.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Heller Flakon mit Limetten und grünen Blättern",
+                  "position": "50% 50%"
+                },
+                "meta": "DUFTWISSEN",
+                "href": "/duftwissen/parfum-testen",
+                "label": "Guide lesen"
+              },
+              {
+                "id": "families",
+                "title": "Duftfamilien einfach erklärt",
+                "text": "Was frische, holzige und warme Düfte auf der Haut unterscheidet.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "DUFTWISSEN",
+                "href": "/duftwissen/duftfamilien",
+                "label": "Guide lesen"
+              },
+              {
+                "id": "budget",
+                "title": "Düfte mit kleinem Budget entdecken",
+                "text": "Wie du Proben, Größen und Preise sinnvoll vergleichst.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "DUFTWISSEN",
+                "href": "/duftwissen/budget",
+                "label": "Guide lesen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "partner-links",
+          "type": "affiliate-links",
+          "name": "Empfehlungen",
+          "visible": true,
+          "content": {
+            "heading": "Zum Weiterstöbern",
+            "text": "Links und Projekte rund um meine Arbeit.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamotte im Auftakt, Vetiver und Leder in der Komposition. Ein Vergleich für eine helle, holzige Richtung.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "HOLZIG · HERSTELLERLINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "Duftnoten ansehen"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Zimt und Muskat treffen laut Lattafa auf Datteln, Praline, Vanille und Harze. Eine süße, würzige Richtung.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "WÜRZIG · HERSTELLERLINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "Duftnoten ansehen"
+              }
+            ],
+            "primaryLabel": "Partner und Empfehlungen",
+            "primaryHref": "/partner"
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "Häufige Duftfragen",
+          "visible": true,
+          "content": {
+            "heading": "Häufige Duftfragen",
+            "items": [
+              {
+                "id": "q1",
+                "title": "Wie finde ich heraus, ob mir ein Duft steht?",
+                "text": "Teste zuerst auf Papier. Einen Favoriten probierst du danach auf der Haut und riechst nach einer Stunde noch einmal daran."
+              },
+              {
+                "id": "q2",
+                "title": "Was heißt Drydown?",
+                "text": "So nennt man die spätere Duftphase auf der Haut, nachdem die ersten, flüchtigen Noten abgeklungen sind."
+              },
+              {
+                "id": "q3",
+                "title": "Wo finde ich Sebastians Videos?",
+                "text": "Im Bereich Reels findest du ausgewählte Videos und jeweils den Link zum Original auf Instagram."
+              },
+              {
+                "id": "q4",
+                "title": "Wie erfahre ich, ob etwas verfügbar ist?",
+                "text": "Kaufbare Artikel erscheinen im Katalog. Per Anfrage kannst du mir sagen, wofür du dich interessierst."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "finder-cta",
+          "type": "cta",
+          "name": "Was passt zu deinem nächsten Anlass?",
+          "visible": true,
+          "content": {
+            "heading": "Was passt zu deinem nächsten Anlass?",
+            "text": "Filter nach Duftfamilie und Anlass. Merke dir Richtungen für deinen nächsten Test.",
+            "primaryLabel": "Duftfinder öffnen",
+            "primaryHref": "/duftfinder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "finder-de",
+      "slug": "duftfinder",
+      "title": "Duftfinder",
+      "locale": "de-DE",
+      "translationKey": "finder",
+      "seo": {
+        "title": "Duftfinder | Scents with Seb",
+        "description": "Entdecke Duftfamilien nach Anlass und speichere passende Ideen für deinen nächsten Test.",
+        "image": "/media/project/fresh.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Ein Duft für deinen Moment.",
+            "text": "Wähle einen Anlass und die Duftfamilie, die dich gerade interessiert.",
+            "subheading": "DUFTFINDER",
+            "image": {
+              "src": "/media/project/fresh.webp",
+              "alt": "Heller Flakon mit Limetten und grünen Blättern",
+              "position": "50% 50%"
+            },
+            "primaryLabel": "Jetzt filtern",
+            "primaryHref": "#finder"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "project-finder",
+          "name": "Interaktive Auswahl",
+          "visible": true,
+          "content": {
+            "heading": "Worauf hast du Lust?",
+            "text": "Merke eine Richtung für den nächsten Besuch in der Parfümerie. Deine Liste bleibt in diesem Browser.",
+            "items": [
+              {
+                "id": "citrus-daily",
+                "title": "Zitrus für den Alltag",
+                "text": "Teste Bergamotte oder Grapefruit auf der Haut. Vergleiche nach einer Stunde, welche Basis noch angenehm frisch wirkt.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Heller Flakon mit Limetten und grünen Blättern",
+                  "position": "50% 50%"
+                },
+                "href": "/duftwissen/parfum-testen",
+                "label": "So testest du",
+                "tags": [
+                  "Frisch",
+                  "Alltag"
+                ]
+              },
+              {
+                "id": "clean-gym",
+                "title": "Leicht und frisch fürs Gym",
+                "text": "Probier eine leichte Richtung mit Zitrus oder grünem Tee. In vollen Räumen lohnt es sich, die Dosierung niedrig zu halten.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Heller Flakon mit Limetten und grünen Blättern",
+                  "position": "50% 50%"
+                },
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Gym-Reel ansehen",
+                "tags": [
+                  "Frisch",
+                  "Sport"
+                ]
+              },
+              {
+                "id": "woody-daily",
+                "title": "Trockenes Holz fürs Büro",
+                "text": "Suche nach einer leichten Zedern- oder Vetiverbasis. Gib dem Test Zeit, damit du die hellen Kopfnoten vom Holz unterscheiden kannst.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "Herstellerinfo zu Explorer",
+                "tags": [
+                  "Holzig",
+                  "Alltag"
+                ]
+              },
+              {
+                "id": "woody-evening",
+                "title": "Warmes Holz am Abend",
+                "text": "Sandelholz, Vetiver und eine Prise Gewürz können unterschiedlich warm ausfallen. Teste zuerst einen Duft auf einem Handgelenk.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "href": "/duftwissen/duftfamilien",
+                "label": "Duftfamilien lesen",
+                "tags": [
+                  "Holzig",
+                  "Abend"
+                ]
+              },
+              {
+                "id": "amber-evening",
+                "title": "Amber und Gewürze am Abend",
+                "text": "Wenn du es warm und süß magst, sind Zimt, Vanille und Harze gute Vergleichsnoten. Khamrah ist ein konkretes Beispiel für diese Richtung.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "Herstellerinfo zu Khamrah",
+                "tags": [
+                  "Warm",
+                  "Abend"
+                ]
+              },
+              {
+                "id": "amber-daily",
+                "title": "Warme Noten mit leichter Dosierung",
+                "text": "Probier einen kleinen Sprühstoß und beurteile erst später, wie präsent der Duft bleibt. So lässt sich ein süßer Akkord auch tagsüber einschätzen.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "href": "/duftwissen/parfum-testen",
+                "label": "Düfte auf der Haut testen",
+                "tags": [
+                  "Warm",
+                  "Alltag"
+                ]
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "families",
+          "type": "cards",
+          "name": "Duftfamilien vergleichen",
+          "visible": true,
+          "content": {
+            "heading": "Duftfamilien vergleichen",
+            "items": [
+              {
+                "id": "fresh",
+                "title": "Frisch & grün",
+                "text": "Zitrus, grüne Blätter oder Vetiver. Eine helle Richtung für Tage, an denen du deinen Duft nah bei dir tragen möchtest.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Heller Flakon mit Limetten und grünen Blättern",
+                  "position": "50% 50%"
+                },
+                "meta": "ZITRUS · GRÜN",
+                "href": "/duftfinder",
+                "label": "Frische Düfte finden"
+              },
+              {
+                "id": "wood",
+                "title": "Trocken & holzig",
+                "text": "Zeder, Sandelholz oder Vetiver. Achte darauf, wie warm oder trocken das Holz auf deiner Haut wirkt.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "ZEDER · VETIVER",
+                "href": "/duftfinder",
+                "label": "Holzige Düfte finden"
+              },
+              {
+                "id": "warm",
+                "title": "Warm & würzig",
+                "text": "Zimt, Vanille, Harze und Amber-Akkorde. Diese Richtung verändert sich oft besonders deutlich über den Abend.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "AMBER · GEWÜRZE",
+                "href": "/duftfinder",
+                "label": "Warme Düfte finden"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "Beim Testen im Laden",
+          "visible": true,
+          "content": {
+            "heading": "Beim Testen im Laden",
+            "items": [
+              {
+                "id": "q1",
+                "title": "Wie finde ich heraus, ob mir ein Duft steht?",
+                "text": "Teste zuerst auf Papier. Einen Favoriten probierst du danach auf der Haut und riechst nach einer Stunde noch einmal daran."
+              },
+              {
+                "id": "q2",
+                "title": "Was heißt Drydown?",
+                "text": "So nennt man die spätere Duftphase auf der Haut, nachdem die ersten, flüchtigen Noten abgeklungen sind."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "testing",
+          "type": "cta",
+          "name": "Von der Auswahl zur ersten Probe.",
+          "visible": true,
+          "content": {
+            "heading": "Von der Auswahl zur ersten Probe.",
+            "primaryLabel": "Guide lesen",
+            "primaryHref": "/duftwissen/parfum-testen"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reels-de",
+      "slug": "reels",
+      "title": "Reels",
+      "locale": "de-DE",
+      "translationKey": "reels",
+      "seo": {
+        "title": "Reels | Scents with Seb",
+        "description": "Original-Reels von Scents with Seb über Gym-Düfte, preiswerte Abenddüfte, Reisen und Parfum für den Alltag.",
+        "image": "/media/project/reel-2.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Fragrance, kurz und persönlich.",
+            "text": "Meine Videos aus dem Duftregal, mit konkreten Anlässen und Eindrücken vom Testen.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian spricht vor seinem Duftregal",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "Alle Reels öffnen",
+            "primaryHref": "#reels",
+            "secondaryLabel": "Instagram",
+            "secondaryHref": "https://www.instagram.com/scentswithseb/"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "spotlight",
+          "type": "video",
+          "name": "Mein Reel über Düfte fürs Gym",
+          "visible": true,
+          "content": {
+            "heading": "Mein Reel über Düfte fürs Gym",
+            "text": "Für mich zählt im Training auch, wie nah ein Duft bleibt. Im Reel frage ich nach eurem meistgetragenen Gym-Duft.",
+            "caption": "Originalvideo auf Instagram",
+            "image": {
+              "src": "/media/project/reel-2.webp",
+              "alt": "Sebastian im Instagram-Duftvideo",
+              "position": "50% 50%"
+            },
+            "videoUrl": "https://www.instagram.com/reel/Df96oFWshiT/"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "reels",
+          "type": "cards",
+          "name": "Reels zum Durchstöbern",
+          "visible": true,
+          "content": {
+            "heading": "Reels zum Durchstöbern",
+            "items": [
+              {
+                "id": "reel-0",
+                "title": "Beim Duftkauf sparen",
+                "text": "Für alle, die beim nächsten Duft aufs Budget schauen.",
+                "image": {
+                  "src": "/media/project/reel-0.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df-mEJjM5-1/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-1",
+                "title": "Teurer, als mir lieb ist",
+                "text": "Ein Reel über Düfte, bei denen ich den höheren Preis nachvollziehen kann.",
+                "image": {
+                  "src": "/media/project/reel-1.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/DgAt3UVNu-T/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-2",
+                "title": "Düfte fürs Gym",
+                "text": "Welchen Duft trägst du am häufigsten beim Training?",
+                "image": {
+                  "src": "/media/project/reel-2.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-3",
+                "title": "Drei Dinge, die ich gelernt habe",
+                "text": "Was ich beim Entdecken und Kaufen von Düften heute anders angehe.",
+                "image": {
+                  "src": "/media/project/reel-3.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df7kTZ-NfnW/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-4",
+                "title": "Date-Night-Düfte unter 60 $",
+                "text": "Fünf preisbewusste Abenddüfte aus meinem Reel. Die Preisgrenze bezieht sich auf das Video.",
+                "image": {
+                  "src": "/media/project/reel-4.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df5C-cstxN6/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-5",
+                "title": "Welcher Duft kommt mit auf Reisen?",
+                "text": "Ein Gespräch über Reisedüfte und persönliche Favoriten.",
+                "image": {
+                  "src": "/media/project/reel-5.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df4zSG3M1Ea/",
+                "label": "Reel ansehen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "follow",
+          "type": "cta",
+          "name": "Suchst du nach Duftideen für einen Anlass?",
+          "visible": true,
+          "content": {
+            "heading": "Suchst du nach Duftideen für einen Anlass?",
+            "primaryLabel": "Duftfinder öffnen",
+            "primaryHref": "/duftfinder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes-de",
+      "slug": "duftwissen",
+      "title": "Duftwissen",
+      "locale": "de-DE",
+      "translationKey": "notes",
+      "seo": {
+        "title": "Duftwissen | Scents with Seb",
+        "description": "Parfum testen, Duftfamilien erkennen und Düfte nach Budget vergleichen.",
+        "image": "/media/project/woods.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Parfum ausprobieren und verstehen.",
+            "text": "Drei Guides für den ersten Test, den Vergleich auf der Haut und einen geplanten Kauf.",
+            "subheading": "DUFTWISSEN",
+            "image": {
+              "src": "/media/project/woods.webp",
+              "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "guides",
+          "type": "cards",
+          "name": "Die Guides",
+          "visible": true,
+          "content": {
+            "heading": "Die Guides",
+            "items": [
+              {
+                "id": "testing",
+                "title": "Parfum testen und vergleichen",
+                "text": "Vom Duftstreifen bis zum Drydown auf der Haut.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Heller Flakon mit Limetten und grünen Blättern",
+                  "position": "50% 50%"
+                },
+                "meta": "DUFTWISSEN",
+                "href": "/duftwissen/parfum-testen",
+                "label": "Guide lesen"
+              },
+              {
+                "id": "families",
+                "title": "Duftfamilien einfach erklärt",
+                "text": "Was frische, holzige und warme Düfte auf der Haut unterscheidet.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "DUFTWISSEN",
+                "href": "/duftwissen/duftfamilien",
+                "label": "Guide lesen"
+              },
+              {
+                "id": "budget",
+                "title": "Düfte mit kleinem Budget entdecken",
+                "text": "Wie du Proben, Größen und Preise sinnvoll vergleichst.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "DUFTWISSEN",
+                "href": "/duftwissen/budget",
+                "label": "Guide lesen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "references",
+          "type": "affiliate-links",
+          "name": "Partnerlinks",
+          "visible": true,
+          "content": {
+            "heading": "Duftnoten zum Vergleichen",
+            "text": "Wenn du einen Duft genauer einordnen willst, helfen die Noten des Herstellers als Ausgangspunkt.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamotte im Auftakt, Vetiver und Leder in der Komposition. Ein Vergleich für eine helle, holzige Richtung.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "HOLZIG · HERSTELLERLINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "Duftnoten ansehen"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Zimt und Muskat treffen laut Lattafa auf Datteln, Praline, Vanille und Harze. Eine süße, würzige Richtung.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "WÜRZIG · HERSTELLERLINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "Duftnoten ansehen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "Duftbegriffe für den Einstieg",
+          "visible": true,
+          "content": {
+            "heading": "Duftbegriffe für den Einstieg",
+            "items": [
+              {
+                "id": "q1",
+                "title": "Wie finde ich heraus, ob mir ein Duft steht?",
+                "text": "Teste zuerst auf Papier. Einen Favoriten probierst du danach auf der Haut und riechst nach einer Stunde noch einmal daran."
+              },
+              {
+                "id": "q2",
+                "title": "Was heißt Drydown?",
+                "text": "So nennt man die spätere Duftphase auf der Haut, nachdem die ersten, flüchtigen Noten abgeklungen sind."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Welche Richtung magst du?",
+          "visible": true,
+          "content": {
+            "heading": "Welche Richtung magst du?",
+            "primaryLabel": "Duftfinder öffnen",
+            "primaryHref": "/duftfinder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "about-de",
+      "slug": "ueber-sebastian",
+      "title": "Über Seb",
+      "locale": "de-DE",
+      "translationKey": "about",
+      "seo": {
+        "title": "Über Seb | Scents with Seb",
+        "description": "Sebastian Maschberger ist der Creator hinter Scents with Seb. Seine Videos zeigen Duftideen für Alltag, Training und besondere Anlässe.",
+        "image": "/media/project/sebastian.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Hey, ich bin Seb.",
+            "text": "Ich teste Düfte und teile, was mich überrascht, was zu welchem Anlass passt und wann sich für mich eine Probe lohnt.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian spricht vor seinem Duftregal",
+              "position": "50% 0%"
+            },
+            "secondaryLabel": "Instagram",
+            "secondaryHref": "https://www.instagram.com/scentswithseb/"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "duftalltag",
+          "type": "richtext",
+          "name": "Ein Anlass macht den Unterschied",
+          "visible": true,
+          "content": {
+            "heading": "Ein Anlass macht den Unterschied",
+            "text": "Ein Duft fürs Fitnessstudio braucht andere Eigenschaften als einer für einen langen Abend. Beim Testen achte ich darauf, wann und wo ich einen Duft wirklich tragen würde."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "reels",
+          "type": "cards",
+          "name": "Drei Themen aus meinen Reels",
+          "visible": true,
+          "content": {
+            "heading": "Drei Themen aus meinen Reels",
+            "items": [
+              {
+                "id": "reel-0",
+                "title": "Beim Duftkauf sparen",
+                "text": "Für alle, die beim nächsten Duft aufs Budget schauen.",
+                "image": {
+                  "src": "/media/project/reel-0.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df-mEJjM5-1/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-2",
+                "title": "Düfte fürs Gym",
+                "text": "Welchen Duft trägst du am häufigsten beim Training?",
+                "image": {
+                  "src": "/media/project/reel-2.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Reel ansehen"
+              },
+              {
+                "id": "reel-4",
+                "title": "Date-Night-Düfte unter 60 $",
+                "text": "Fünf preisbewusste Abenddüfte aus meinem Reel. Die Preisgrenze bezieht sich auf das Video.",
+                "image": {
+                  "src": "/media/project/reel-4.webp",
+                  "alt": "Sebastian im Instagram-Duftvideo",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df5C-cstxN6/",
+                "label": "Reel ansehen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "partner",
+          "type": "cta",
+          "name": "Arbeitest du an einem Duftprojekt?",
+          "visible": true,
+          "content": {
+            "heading": "Arbeitest du an einem Duftprojekt?",
+            "text": "Erzähl mir, was du vorhast und für wen du es machst.",
+            "primaryLabel": "Kooperationen ansehen",
+            "primaryHref": "/partner"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "testing-de",
+      "slug": "duftwissen/parfum-testen",
+      "title": "Parfum testen und vergleichen",
+      "locale": "de-DE",
+      "translationKey": "testing",
+      "seo": {
+        "title": "Parfum testen und vergleichen | Scents with Seb",
+        "description": "Vom Duftstreifen bis zum Drydown auf der Haut.",
+        "image": "/media/project/fresh.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Parfum testen und vergleichen",
+            "text": "Vom Duftstreifen bis zum Drydown auf der Haut.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/fresh.webp",
+              "alt": "Heller Flakon mit Limetten und grünen Blättern",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "part0",
+          "type": "richtext",
+          "name": "Auf Papier vorsortieren",
+          "visible": true,
+          "content": {
+            "heading": "Auf Papier vorsortieren",
+            "text": "Sprühe jeweils einen Duft auf einen Papierstreifen und beschrifte ihn. Warte kurz, bevor du die erste Note beurteilst."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part1",
+          "type": "richtext",
+          "name": "Einen Favoriten auf der Haut testen",
+          "visible": true,
+          "content": {
+            "heading": "Einen Favoriten auf der Haut testen",
+            "text": "Trage einen Duft auf ein Handgelenk auf. Lass ihn trocknen und prüfe nach einer Stunde, wie sich die Noten verändert haben."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part2",
+          "type": "richtext",
+          "name": "Dein Urteil festhalten",
+          "visible": true,
+          "content": {
+            "heading": "Dein Urteil festhalten",
+            "text": "Notiere Anlass, Lautstärke und was du von der Basis hältst. Beim nächsten Test kannst du gezielter vergleichen."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Finde eine Richtung zum Testen.",
+          "visible": true,
+          "content": {
+            "heading": "Finde eine Richtung zum Testen.",
+            "primaryLabel": "Duftfinder öffnen",
+            "primaryHref": "/duftfinder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "families-de",
+      "slug": "duftwissen/duftfamilien",
+      "title": "Duftfamilien einfach erklärt",
+      "locale": "de-DE",
+      "translationKey": "families",
+      "seo": {
+        "title": "Duftfamilien einfach erklärt | Scents with Seb",
+        "description": "Was frische, holzige und warme Düfte auf der Haut unterscheidet.",
+        "image": "/media/project/woods.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Duftfamilien einfach erklärt",
+            "text": "Was frische, holzige und warme Düfte auf der Haut unterscheidet.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/woods.webp",
+              "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "part0",
+          "type": "richtext",
+          "name": "Frische",
+          "visible": true,
+          "content": {
+            "heading": "Frische",
+            "text": "Zitrus und grüne Akkorde fallen oft zuerst auf. Achte darauf, ob der Duft später trocken, seifig, weich oder holzig wird."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part1",
+          "type": "richtext",
+          "name": "Holz",
+          "visible": true,
+          "content": {
+            "heading": "Holz",
+            "text": "Zeder wirkt oft trocken, Sandelholz eher weich. Vetiver kann grün, rauchig oder erdig erscheinen. Die Kombination entscheidet."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part2",
+          "type": "richtext",
+          "name": "Wärme",
+          "visible": true,
+          "content": {
+            "heading": "Wärme",
+            "text": "Amber beschreibt oft einen warmen Akkord. Süße, Gewürze, Harze und Hölzer können darin unterschiedlich betont sein."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Finde eine Richtung zum Testen.",
+          "visible": true,
+          "content": {
+            "heading": "Finde eine Richtung zum Testen.",
+            "primaryLabel": "Duftfinder öffnen",
+            "primaryHref": "/duftfinder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "budget-de",
+      "slug": "duftwissen/budget",
+      "title": "Düfte mit kleinem Budget entdecken",
+      "locale": "de-DE",
+      "translationKey": "budget",
+      "seo": {
+        "title": "Düfte mit kleinem Budget entdecken | Scents with Seb",
+        "description": "Wie du Proben, Größen und Preise sinnvoll vergleichst.",
+        "image": "/media/project/amber.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Düfte mit kleinem Budget entdecken",
+            "text": "Wie du Proben, Größen und Preise sinnvoll vergleichst.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/amber.webp",
+              "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "part0",
+          "type": "richtext",
+          "name": "Klein anfangen",
+          "visible": true,
+          "content": {
+            "heading": "Klein anfangen",
+            "text": "Eine Probe gibt dir mehrere Gelegenheiten, denselben Duft zu tragen. So merkst du, ob dich nach dem ersten Eindruck auch der Drydown überzeugt."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part1",
+          "type": "richtext",
+          "name": "Größen vergleichen",
+          "visible": true,
+          "content": {
+            "heading": "Größen vergleichen",
+            "text": "Schau dir Gesamtpreis und Preis pro Milliliter an. Eine kleine Flasche kann für einen seltenen Anlass die passendere Größe sein."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part2",
+          "type": "richtext",
+          "name": "Angebote auf dem Markt prüfen",
+          "visible": true,
+          "content": {
+            "heading": "Angebote auf dem Markt prüfen",
+            "text": "Preise in Videos können nach Land, Größe und Zeitpunkt variieren. Prüfe den Preis beim Händler, bevor du bestellst."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Finde eine Richtung zum Testen.",
+          "visible": true,
+          "content": {
+            "heading": "Finde eine Richtung zum Testen.",
+            "primaryLabel": "Duftfinder öffnen",
+            "primaryHref": "/duftfinder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shop-de",
+      "slug": "shop",
+      "title": "Duftshop",
+      "locale": "de-DE",
+      "translationKey": "shop",
+      "seo": {
+        "title": "Duftshop | Scents with Seb",
+        "description": "Duftkatalog und Anfragen zu Empfehlungen, Duftfamilien und Verfügbarkeit.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Ein Platz für deine nächste Duftidee.",
+            "text": "Durchstöbere den Katalog oder frag nach einem Duft, der dich interessiert.",
+            "subheading": "SHOP",
+            "image": {
+              "src": "/media/project/hero.webp",
+              "alt": "Dunkler Parfumflakon im warmen Licht",
+              "position": "50% 50%"
+            },
+            "primaryLabel": "Duft anfragen",
+            "primaryHref": "/kontakt?service=Duftanfrage",
+            "secondaryLabel": "Warenkorb",
+            "secondaryHref": "/warenkorb"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "panorama",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        },
+        {
+          "id": "commerce",
+          "type": "creator-shop",
+          "name": "Shopmodul",
+          "visible": true,
+          "content": {
+            "heading": "Aktueller Katalog",
+            "caption": "catalog"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "refs",
+          "type": "affiliate-links",
+          "name": "Partnerlinks",
+          "visible": true,
+          "content": {
+            "heading": "Zwei Duftprofile zum Kennenlernen",
+            "text": "Die verlinkten Herstellerseiten zeigen die jeweiligen Duftnoten.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamotte im Auftakt, Vetiver und Leder in der Komposition. Ein Vergleich für eine helle, holzige Richtung.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "HOLZIG · HERSTELLERLINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "Duftnoten ansehen"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Zimt und Muskat treffen laut Lattafa auf Datteln, Praline, Vanille und Harze. Eine süße, würzige Richtung.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "WÜRZIG · HERSTELLERLINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "Duftnoten ansehen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "Fragen zum Sortiment",
+          "visible": true,
+          "content": {
+            "heading": "Fragen zum Sortiment",
+            "items": [
+              {
+                "id": "q1",
+                "title": "Wie erfahre ich, ob etwas verfügbar ist?",
+                "text": "Kaufbare Artikel erscheinen im Katalog. Per Anfrage kannst du mir sagen, wofür du dich interessierst."
+              },
+              {
+                "id": "q2",
+                "title": "Wie finde ich heraus, ob mir ein Duft steht?",
+                "text": "Teste zuerst auf Papier. Einen Favoriten probierst du danach auf der Haut und riechst nach einer Stunde noch einmal daran."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact-de",
+      "slug": "kontakt",
+      "title": "Kontakt",
+      "locale": "de-DE",
+      "translationKey": "contact",
+      "seo": {
+        "title": "Kontakt | Scents with Seb",
+        "description": "Schreib Seb zu Duftempfehlungen, Videos oder einer Partnerschaft.",
+        "image": "/media/project/sebastian.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Hi, was möchtest du wissen?",
+            "text": "Du hast einen Duft entdeckt, suchst nach einer Richtung oder willst zusammenarbeiten? Schreib mir.",
+            "subheading": "KONTAKT",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian spricht vor seinem Duftregal",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "Nachricht schreiben",
+            "primaryHref": "#anfrage"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "anfrage",
+          "type": "contact",
+          "name": "Schreib mir",
+          "visible": true,
+          "content": {
+            "heading": "Schreib mir",
+            "text": "Sag mir kurz, wobei ich dir helfen kann.",
+            "form": {
+              "nameLabel": "Dein Name",
+              "subjectLabel": "Worum geht’s?",
+              "messageLabel": "Deine Nachricht",
+              "messagePlaceholder": "Welche Duftnoten, welcher Anlass oder welche Idee beschäftigt dich?",
+              "submitLabel": "Anfrage senden",
+              "successHeading": "Deine Anfrage ist da.",
+              "successText": "Danke für deine Nachricht. Ich melde mich über die angegebene E-Mail-Adresse."
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "next",
+          "type": "cards",
+          "name": "Kann ich dir direkt weiterhelfen?",
+          "visible": true,
+          "content": {
+            "heading": "Kann ich dir direkt weiterhelfen?",
+            "items": [
+              {
+                "id": "finder",
+                "title": "Duftfinder",
+                "text": "Richtungen nach Anlass und Duftfamilie wählen.",
+                "icon": "Sparkles",
+                "href": "/duftfinder",
+                "label": "Duftfinder öffnen"
+              },
+              {
+                "id": "reels",
+                "title": "Reels",
+                "text": "Ausgewählte Duftvideos und ihre Originale auf Instagram.",
+                "icon": "Play",
+                "href": "/reels",
+                "label": "Reels ansehen"
+              },
+              {
+                "id": "partner",
+                "title": "Kooperationen",
+                "text": "Infos zu Anfragen, Produktlinks und Zusammenarbeit.",
+                "icon": "Handshake",
+                "href": "/partner",
+                "label": "Kooperationen ansehen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-de",
+      "slug": "warenkorb",
+      "title": "Warenkorb",
+      "locale": "de-DE",
+      "translationKey": "cart",
+      "seo": {
+        "title": "Warenkorb | Scents with Seb",
+        "description": "Ausgewählte Artikel und Bestellübersicht.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "commerce",
+          "type": "creator-shop",
+          "name": "Shopmodul",
+          "visible": true,
+          "content": {
+            "heading": "Dein Warenkorb",
+            "caption": "cart"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "back",
+          "type": "cta",
+          "name": "Weiter stöbern",
+          "visible": true,
+          "content": {
+            "heading": "Weiter stöbern",
+            "primaryLabel": "Zum Shop",
+            "primaryHref": "/shop"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "partners-de",
+      "slug": "partner",
+      "title": "Partner & Empfehlungen",
+      "locale": "de-DE",
+      "translationKey": "partners",
+      "seo": {
+        "title": "Partner & Empfehlungen | Scents with Seb",
+        "description": "Empfehlungen, Herstellerlinks und Kontakt für Kooperationen mit Sebastian Maschberger.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Auftakt",
+          "visible": true,
+          "content": {
+            "heading": "Gute Ideen. Gute Zusammenarbeit.",
+            "text": "Ich freue mich über Projekte, die meiner Community etwas Konkretes bringen. Hier findest du meine Kanäle, Empfehlungen und den Kontakt für Partnerschaften.",
+            "subheading": "PARTNER & EMPFEHLUNGEN",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian spricht vor seinem Duftregal",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "Kooperation anfragen",
+            "primaryHref": "/kontakt?service=Kooperation"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "links",
+          "type": "affiliate-links",
+          "name": "Partnerlinks",
+          "visible": true,
+          "content": {
+            "heading": "Kanäle und Empfehlungen",
+            "text": "Affiliate-Links sind als Werbung gekennzeichnet. Wenn du darüber einkaufst, kann ich eine Provision erhalten.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamotte im Auftakt, Vetiver und Leder in der Komposition. Ein Vergleich für eine helle, holzige Richtung.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dunkler Flakon auf einem Stück Zedernholz",
+                  "position": "50% 50%"
+                },
+                "meta": "HOLZIG · HERSTELLERLINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "Duftnoten ansehen"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Zimt und Muskat treffen laut Lattafa auf Datteln, Praline, Vanille und Harze. Eine süße, würzige Richtung.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
+                  "position": "50% 50%"
+                },
+                "meta": "WÜRZIG · HERSTELLERLINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "Duftnoten ansehen"
+              },
+              {
+                "id": "instagram",
+                "title": "Scents with Seb",
+                "text": "Originalreviews und Ideen für Düfte in meinem Instagram-Profil.",
+                "image": {
+                  "src": "/media/project/sebastian.webp",
+                  "alt": "Sebastian spricht vor seinem Duftregal",
+                  "position": "50% 0%"
+                },
+                "meta": "EIGENER KANAL",
+                "href": "https://www.instagram.com/scentswithseb/",
+                "label": "Instagram-Profil öffnen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "anfrage",
+          "type": "richtext",
+          "name": "Was ich für eine Anfrage wissen muss",
+          "visible": true,
+          "content": {
+            "heading": "Was ich für eine Anfrage wissen muss",
+            "text": "Schick mir eine kurze Vorstellung, die Idee, das gewünschte Format und einen groben Zeitraum. Bei Produktkooperationen hilft ein Link zu dem konkreten Produkt.",
+            "primaryLabel": "Kooperationsanfrage schreiben",
+            "primaryHref": "/kontakt?service=Kooperation"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "cta",
+          "name": "Eine Idee gemeinsam durchdenken.",
+          "visible": true,
+          "content": {
+            "heading": "Eine Idee gemeinsam durchdenken.",
+            "primaryLabel": "Kontakt aufnehmen",
+            "primaryHref": "/kontakt"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "imprint-de",
+      "slug": "impressum",
+      "title": "Impressum",
+      "locale": "de-DE",
+      "translationKey": "imprint",
+      "seo": {
+        "title": "Impressum | Scents with Seb",
+        "description": "Anbieter und Kontaktangaben.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "anbieter",
+          "type": "richtext",
+          "name": "Impressum",
+          "visible": true,
+          "content": {
+            "heading": "Impressum",
+            "text": "Sebastian Maschberger",
+            "items": [
+              {
+                "id": "provider",
+                "title": "Anbieterangaben",
+                "text": "Die veröffentlichten Kontakt- und Anbieterangaben findest du im Impressum von Train Like a Pro.",
+                "href": "https://trainlikeapro.coach/imprint/",
+                "label": "Anbieterimpressum öffnen"
+              },
+              {
+                "id": "contact",
+                "title": "Kontakt",
+                "text": " ",
+                "href": "/kontakt",
+                "label": "Zum Kontakt"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "privacy-de",
+      "slug": "datenschutz",
+      "title": "Datenschutz",
+      "locale": "de-DE",
+      "translationKey": "privacy",
+      "seo": {
+        "title": "Datenschutz | Scents with Seb",
+        "description": "Hinweise zu Formularen, lokalem Speicher, externen Medien und Statistik.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "privacy",
+          "type": "richtext",
+          "name": "Datenschutz",
+          "visible": true,
+          "content": {
+            "heading": "Datenschutz",
+            "text": "Diese Hinweise beschreiben die Funktionen dieser Website. Bei Fragen erreichst du mich über das Kontaktformular.",
+            "items": [
+              {
+                "id": "forms",
+                "title": "Anfragen",
+                "text": "Wenn du das Formular abschickst, speichere ich deinen Namen, deine E-Mail-Adresse und deine Nachricht, um dir antworten zu können. Hebe persönliche Gesundheitsdetails bitte für das direkte Gespräch auf."
+              },
+              {
+                "id": "storage",
+                "title": "Warenkorb und Merkliste",
+                "text": "Die Website speichert deine Auswahl in diesem Browser. Du kannst diese Daten in den Einstellungen deines Browsers entfernen."
+              },
+              {
+                "id": "media",
+                "title": "Externe Videos und Links",
+                "text": "Eingebettete Videos laden nach deiner Einwilligung und übertragen dabei deine IP-Adresse an den Plattformanbieter. Externe Links öffnen das jeweilige Angebot."
+              },
+              {
+                "id": "analytics",
+                "title": "Optionale Statistik",
+                "text": "Erst nach deiner Statistik-Einwilligung misst die Website Aufrufe und Nutzung. Du kannst die Auswahl über die Cookie-Einstellungen im Fußbereich ändern."
+              },
+              {
+                "id": "provider",
+                "title": "Anbieter",
+                "text": "",
+                "href": "/impressum",
+                "label": "Impressum ansehen"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "home-en",
+      "slug": "en",
+      "title": "Scents with Seb · Fragrance & honest reviews",
+      "locale": "en-GB",
+      "translationKey": "home",
+      "seo": {
+        "title": "Scents with Seb · Fragrance & honest reviews",
+        "description": "Explore affordable fragrance ideas with Sebastian Maschberger. Watch reels, find scent families and get practical testing tips.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Smell good.\nChoose well.",
+            "text": "Fragrance reviews and everyday scent ideas, from first spray to drydown.",
+            "subheading": "SEB’S FRAGRANCE JOURNAL",
+            "image": {
+              "src": "/media/project/hero.webp",
+              "alt": "Dark perfume bottle in warm light",
+              "position": "50% 50%"
+            },
+            "primaryLabel": "Open scent finder",
+            "primaryHref": "/en/scent-finder",
+            "secondaryLabel": "Watch reels",
+            "secondaryHref": "/en/reels"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "panorama",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        },
+        {
+          "id": "families",
+          "type": "cards",
+          "name": "What do you like to smell?",
+          "visible": true,
+          "content": {
+            "heading": "What do you like to smell?",
+            "text": "Start with notes that make you curious.",
+            "items": [
+              {
+                "id": "fresh",
+                "title": "Fresh & green",
+                "text": "Citrus, green leaves or vetiver. A bright direction for days when you want your scent to stay close.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Light perfume bottle with limes and green leaves",
+                  "position": "50% 50%"
+                },
+                "meta": "CITRUS · GREEN",
+                "href": "/en/scent-finder",
+                "label": "Find fresh fragrances"
+              },
+              {
+                "id": "wood",
+                "title": "Dry & woody",
+                "text": "Cedar, sandalwood or vetiver. Notice how warm or dry the woods feel on your skin.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "CEDAR · VETIVER",
+                "href": "/en/scent-finder",
+                "label": "Find woody fragrances"
+              },
+              {
+                "id": "warm",
+                "title": "Warm & spicy",
+                "text": "Cinnamon, vanilla, resins and amber accords. This direction often changes noticeably through the evening.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "AMBER · SPICE",
+                "href": "/en/scent-finder",
+                "label": "Find warm fragrances"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "latest",
+          "type": "cards",
+          "name": "From the fragrance shelf",
+          "visible": true,
+          "content": {
+            "heading": "From the fragrance shelf",
+            "text": "My reels on fragrance for the gym, evenings and your next adventure.",
+            "items": [
+              {
+                "id": "reel-2",
+                "title": "Fragrances for the gym",
+                "text": "What fragrance do you wear most often to the gym?",
+                "image": {
+                  "src": "/media/project/reel-2.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-4",
+                "title": "Date-night fragrances under $60",
+                "text": "Five budget-minded evening fragrances from my reel. The price threshold is from the video.",
+                "image": {
+                  "src": "/media/project/reel-4.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df5C-cstxN6/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-5",
+                "title": "What fragrance travels with you?",
+                "text": "A chat about travel fragrances and personal favourites.",
+                "image": {
+                  "src": "/media/project/reel-5.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df4zSG3M1Ea/",
+                "label": "Watch reel"
+              }
+            ],
+            "primaryLabel": "See all reels",
+            "primaryHref": "/en/reels"
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "about",
+          "type": "split",
+          "name": "Hey, I’m Seb.",
+          "visible": true,
+          "content": {
+            "heading": "Hey, I’m Seb.",
+            "text": "I try fragrances for ordinary days and occasions worth getting excited about. Here are my videos and a simple place to start comparing fragrances.",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian talking in front of his fragrance shelf",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "More about Seb",
+            "primaryHref": "/en/about"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "left",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guides",
+          "type": "cards",
+          "name": "Fragrance knowledge you can use",
+          "visible": true,
+          "content": {
+            "heading": "Fragrance knowledge you can use",
+            "items": [
+              {
+                "id": "testing",
+                "title": "How to test and compare perfume",
+                "text": "From a paper strip to the drydown on skin.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Light perfume bottle with limes and green leaves",
+                  "position": "50% 50%"
+                },
+                "meta": "FRAGRANCE GUIDE",
+                "href": "/en/fragrance-notes/testing-a-fragrance",
+                "label": "Read guide"
+              },
+              {
+                "id": "families",
+                "title": "Fragrance families made simple",
+                "text": "What makes fresh, woody and warm fragrances feel different on skin.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "FRAGRANCE GUIDE",
+                "href": "/en/fragrance-notes/fragrance-families",
+                "label": "Read guide"
+              },
+              {
+                "id": "budget",
+                "title": "Explore fragrance on a budget",
+                "text": "How to compare samples, bottle sizes and prices.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "FRAGRANCE GUIDE",
+                "href": "/en/fragrance-notes/budget",
+                "label": "Read guide"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "partner-links",
+          "type": "affiliate-links",
+          "name": "Recommendations",
+          "visible": true,
+          "content": {
+            "heading": "More to explore",
+            "text": "Links and current projects from my world.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamot in the opening with vetiver and leather in the composition. A reference for a bright, woody direction.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "WOODY · BRAND LINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "See fragrance notes"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Lattafa lists cinnamon and nutmeg with dates, praline, vanilla and resins. A sweet, spicy direction.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "SPICY · BRAND LINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "See fragrance notes"
+              }
+            ],
+            "primaryLabel": "Partners and links",
+            "primaryHref": "/en/partners"
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "Common fragrance questions",
+          "visible": true,
+          "content": {
+            "heading": "Common fragrance questions",
+            "items": [
+              {
+                "id": "q1",
+                "title": "How do I know whether a scent suits me?",
+                "text": "Start on paper. Try a favourite on skin next and check in again after an hour."
+              },
+              {
+                "id": "q2",
+                "title": "What does drydown mean?",
+                "text": "It is the later phase of a fragrance on your skin, after the opening notes have faded."
+              },
+              {
+                "id": "q3",
+                "title": "Where are Sebastian’s videos?",
+                "text": "Find a selection of videos under Reels. Each links to its original on Instagram."
+              },
+              {
+                "id": "q4",
+                "title": "How do I know whether something is available?",
+                "text": "Items available to buy appear in the catalogue. You can also send me an enquiry about a fragrance you are interested in."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "finder-cta",
+          "type": "cta",
+          "name": "What fits your next occasion?",
+          "visible": true,
+          "content": {
+            "heading": "What fits your next occasion?",
+            "text": "Filter by scent family and occasion. Save ideas for your next fragrance test.",
+            "primaryLabel": "Open scent finder",
+            "primaryHref": "/en/scent-finder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "finder-en",
+      "slug": "en/scent-finder",
+      "title": "Scent finder",
+      "locale": "en-GB",
+      "translationKey": "finder",
+      "seo": {
+        "title": "Scent finder | Scents with Seb",
+        "description": "Explore fragrance families by occasion and save ideas for your next test.",
+        "image": "/media/project/fresh.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "A scent for your occasion.",
+            "text": "Choose an occasion and a scent family you are curious about.",
+            "subheading": "SCENT FINDER",
+            "image": {
+              "src": "/media/project/fresh.webp",
+              "alt": "Light perfume bottle with limes and green leaves",
+              "position": "50% 50%"
+            },
+            "primaryLabel": "Find a scent",
+            "primaryHref": "#finder"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "project-finder",
+          "name": "Interactive finder",
+          "visible": true,
+          "content": {
+            "heading": "What are you in the mood for?",
+            "text": "Save a direction to try the next time you visit a fragrance shop. Your list stays in this browser.",
+            "items": [
+              {
+                "id": "citrus-daily",
+                "title": "Citrus for everyday wear",
+                "text": "Try bergamot or grapefruit on skin. After an hour, compare which base still feels pleasantly fresh.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Light perfume bottle with limes and green leaves",
+                  "position": "50% 50%"
+                },
+                "href": "/en/fragrance-notes/testing-a-fragrance",
+                "label": "How to test",
+                "tags": [
+                  "Fresh",
+                  "Everyday"
+                ]
+              },
+              {
+                "id": "clean-gym",
+                "title": "Light and fresh for the gym",
+                "text": "Try a light direction with citrus or green tea. In crowded rooms, use a light hand when applying.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Light perfume bottle with limes and green leaves",
+                  "position": "50% 50%"
+                },
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Watch the gym reel",
+                "tags": [
+                  "Fresh",
+                  "Gym"
+                ]
+              },
+              {
+                "id": "woody-daily",
+                "title": "Dry woods for work",
+                "text": "Look for a light cedar or vetiver base. Give your test time so you can distinguish the bright opening from the woods.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "Explorer manufacturer notes",
+                "tags": [
+                  "Woody",
+                  "Everyday"
+                ]
+              },
+              {
+                "id": "woody-evening",
+                "title": "Warm woods for evenings",
+                "text": "Sandalwood, vetiver and a little spice can feel warm in different ways. Start by testing one on a wrist.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "href": "/en/fragrance-notes/fragrance-families",
+                "label": "Read about fragrance families",
+                "tags": [
+                  "Woody",
+                  "Evening"
+                ]
+              },
+              {
+                "id": "amber-evening",
+                "title": "Amber and spices for evenings",
+                "text": "If you like warmth and sweetness, cinnamon, vanilla and resins are useful notes to compare. Khamrah is one example of this direction.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "Khamrah manufacturer notes",
+                "tags": [
+                  "Warm",
+                  "Evening"
+                ]
+              },
+              {
+                "id": "amber-daily",
+                "title": "Warm notes with a light touch",
+                "text": "Try a small spray and decide later how noticeable it remains. That helps you judge a sweet accord for daytime.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "href": "/en/fragrance-notes/testing-a-fragrance",
+                "label": "Test fragrance on skin",
+                "tags": [
+                  "Warm",
+                  "Everyday"
+                ]
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "families",
+          "type": "cards",
+          "name": "Compare fragrance families",
+          "visible": true,
+          "content": {
+            "heading": "Compare fragrance families",
+            "items": [
+              {
+                "id": "fresh",
+                "title": "Fresh & green",
+                "text": "Citrus, green leaves or vetiver. A bright direction for days when you want your scent to stay close.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Light perfume bottle with limes and green leaves",
+                  "position": "50% 50%"
+                },
+                "meta": "CITRUS · GREEN",
+                "href": "/en/scent-finder",
+                "label": "Find fresh fragrances"
+              },
+              {
+                "id": "wood",
+                "title": "Dry & woody",
+                "text": "Cedar, sandalwood or vetiver. Notice how warm or dry the woods feel on your skin.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "CEDAR · VETIVER",
+                "href": "/en/scent-finder",
+                "label": "Find woody fragrances"
+              },
+              {
+                "id": "warm",
+                "title": "Warm & spicy",
+                "text": "Cinnamon, vanilla, resins and amber accords. This direction often changes noticeably through the evening.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "AMBER · SPICE",
+                "href": "/en/scent-finder",
+                "label": "Find warm fragrances"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "At the fragrance counter",
+          "visible": true,
+          "content": {
+            "heading": "At the fragrance counter",
+            "items": [
+              {
+                "id": "q1",
+                "title": "How do I know whether a scent suits me?",
+                "text": "Start on paper. Try a favourite on skin next and check in again after an hour."
+              },
+              {
+                "id": "q2",
+                "title": "What does drydown mean?",
+                "text": "It is the later phase of a fragrance on your skin, after the opening notes have faded."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "testing",
+          "type": "cta",
+          "name": "From a shortlist to a first sample.",
+          "visible": true,
+          "content": {
+            "heading": "From a shortlist to a first sample.",
+            "primaryLabel": "Read the guide",
+            "primaryHref": "/en/fragrance-notes/testing-a-fragrance"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reels-en",
+      "slug": "en/reels",
+      "title": "Reels",
+      "locale": "en-GB",
+      "translationKey": "reels",
+      "seo": {
+        "title": "Reels | Scents with Seb",
+        "description": "Original Scents with Seb reels on gym scents, affordable date-night fragrances, travel and everyday perfume.",
+        "image": "/media/project/reel-2.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Fragrance, short and personal.",
+            "text": "My videos from the fragrance shelf, with occasions and impressions from testing.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian talking in front of his fragrance shelf",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "View all reels",
+            "primaryHref": "#reels",
+            "secondaryLabel": "Instagram",
+            "secondaryHref": "https://www.instagram.com/scentswithseb/"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "spotlight",
+          "type": "video",
+          "name": "My reel about fragrances for the gym",
+          "visible": true,
+          "content": {
+            "heading": "My reel about fragrances for the gym",
+            "text": "The distance a scent travels matters to me at the gym. In this reel I ask about your most-worn gym fragrance.",
+            "caption": "Original Instagram video",
+            "image": {
+              "src": "/media/project/reel-2.webp",
+              "alt": "Sebastian in an Instagram fragrance video",
+              "position": "50% 50%"
+            },
+            "videoUrl": "https://www.instagram.com/reel/Df96oFWshiT/"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "reels",
+          "type": "cards",
+          "name": "Reels to browse",
+          "visible": true,
+          "content": {
+            "heading": "Reels to browse",
+            "items": [
+              {
+                "id": "reel-0",
+                "title": "Saving money on fragrance",
+                "text": "For anyone watching the budget on their next fragrance.",
+                "image": {
+                  "src": "/media/project/reel-0.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df-mEJjM5-1/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-1",
+                "title": "Pricier than I’d like",
+                "text": "A reel about fragrances where I can see why they cost more.",
+                "image": {
+                  "src": "/media/project/reel-1.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/DgAt3UVNu-T/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-2",
+                "title": "Fragrances for the gym",
+                "text": "What fragrance do you wear most often to the gym?",
+                "image": {
+                  "src": "/media/project/reel-2.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-3",
+                "title": "Three things I learned the hard way",
+                "text": "What I approach differently now when discovering and buying fragrances.",
+                "image": {
+                  "src": "/media/project/reel-3.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df7kTZ-NfnW/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-4",
+                "title": "Date-night fragrances under $60",
+                "text": "Five budget-minded evening fragrances from my reel. The price threshold is from the video.",
+                "image": {
+                  "src": "/media/project/reel-4.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df5C-cstxN6/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-5",
+                "title": "What fragrance travels with you?",
+                "text": "A chat about travel fragrances and personal favourites.",
+                "image": {
+                  "src": "/media/project/reel-5.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df4zSG3M1Ea/",
+                "label": "Watch reel"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "follow",
+          "type": "cta",
+          "name": "Looking for fragrance ideas for a specific occasion?",
+          "visible": true,
+          "content": {
+            "heading": "Looking for fragrance ideas for a specific occasion?",
+            "primaryLabel": "Open scent finder",
+            "primaryHref": "/en/scent-finder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes-en",
+      "slug": "en/fragrance-notes",
+      "title": "Fragrance notes",
+      "locale": "en-GB",
+      "translationKey": "notes",
+      "seo": {
+        "title": "Fragrance notes | Scents with Seb",
+        "description": "Learn to test perfume, recognise fragrance families and compare options by budget.",
+        "image": "/media/project/woods.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Try fragrance and understand what you smell.",
+            "text": "Three guides for your first test, comparing scents on skin and buying with intention.",
+            "subheading": "FRAGRANCE NOTES",
+            "image": {
+              "src": "/media/project/woods.webp",
+              "alt": "Dark bottle on a piece of cedar",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "guides",
+          "type": "cards",
+          "name": "The guides",
+          "visible": true,
+          "content": {
+            "heading": "The guides",
+            "items": [
+              {
+                "id": "testing",
+                "title": "How to test and compare perfume",
+                "text": "From a paper strip to the drydown on skin.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Light perfume bottle with limes and green leaves",
+                  "position": "50% 50%"
+                },
+                "meta": "FRAGRANCE GUIDE",
+                "href": "/en/fragrance-notes/testing-a-fragrance",
+                "label": "Read guide"
+              },
+              {
+                "id": "families",
+                "title": "Fragrance families made simple",
+                "text": "What makes fresh, woody and warm fragrances feel different on skin.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "FRAGRANCE GUIDE",
+                "href": "/en/fragrance-notes/fragrance-families",
+                "label": "Read guide"
+              },
+              {
+                "id": "budget",
+                "title": "Explore fragrance on a budget",
+                "text": "How to compare samples, bottle sizes and prices.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "FRAGRANCE GUIDE",
+                "href": "/en/fragrance-notes/budget",
+                "label": "Read guide"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "references",
+          "type": "affiliate-links",
+          "name": "Partner links",
+          "visible": true,
+          "content": {
+            "heading": "Fragrance notes to compare",
+            "text": "A brand’s list of notes is a good starting point when you want to understand a fragrance.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamot in the opening with vetiver and leather in the composition. A reference for a bright, woody direction.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "WOODY · BRAND LINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "See fragrance notes"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Lattafa lists cinnamon and nutmeg with dates, praline, vanilla and resins. A sweet, spicy direction.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "SPICY · BRAND LINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "See fragrance notes"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "Terms to get started",
+          "visible": true,
+          "content": {
+            "heading": "Terms to get started",
+            "items": [
+              {
+                "id": "q1",
+                "title": "How do I know whether a scent suits me?",
+                "text": "Start on paper. Try a favourite on skin next and check in again after an hour."
+              },
+              {
+                "id": "q2",
+                "title": "What does drydown mean?",
+                "text": "It is the later phase of a fragrance on your skin, after the opening notes have faded."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Which direction do you like?",
+          "visible": true,
+          "content": {
+            "heading": "Which direction do you like?",
+            "primaryLabel": "Open scent finder",
+            "primaryHref": "/en/scent-finder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "about-en",
+      "slug": "en/about",
+      "title": "About Seb",
+      "locale": "en-GB",
+      "translationKey": "about",
+      "seo": {
+        "title": "About Seb | Scents with Seb",
+        "description": "Sebastian Maschberger is the creator behind Scents with Seb, with videos about fragrances for everyday wear, the gym and special occasions.",
+        "image": "/media/project/sebastian.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Hey, I’m Seb.",
+            "text": "I try fragrances and share what surprises me, what suits which occasion and when I think a sample is worth it.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian talking in front of his fragrance shelf",
+              "position": "50% 0%"
+            },
+            "secondaryLabel": "Instagram",
+            "secondaryHref": "https://www.instagram.com/scentswithseb/"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "duftalltag",
+          "type": "richtext",
+          "name": "Occasion changes the experience",
+          "visible": true,
+          "content": {
+            "heading": "Occasion changes the experience",
+            "text": "I look for different things in a gym scent and a fragrance for a long evening. When I test, I think about when and where I would actually wear it."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "reels",
+          "type": "cards",
+          "name": "Three topics from my reels",
+          "visible": true,
+          "content": {
+            "heading": "Three topics from my reels",
+            "items": [
+              {
+                "id": "reel-0",
+                "title": "Saving money on fragrance",
+                "text": "For anyone watching the budget on their next fragrance.",
+                "image": {
+                  "src": "/media/project/reel-0.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df-mEJjM5-1/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-2",
+                "title": "Fragrances for the gym",
+                "text": "What fragrance do you wear most often to the gym?",
+                "image": {
+                  "src": "/media/project/reel-2.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df96oFWshiT/",
+                "label": "Watch reel"
+              },
+              {
+                "id": "reel-4",
+                "title": "Date-night fragrances under $60",
+                "text": "Five budget-minded evening fragrances from my reel. The price threshold is from the video.",
+                "image": {
+                  "src": "/media/project/reel-4.webp",
+                  "alt": "Sebastian in an Instagram fragrance video",
+                  "position": "50% 50%"
+                },
+                "meta": "REEL",
+                "href": "https://www.instagram.com/reel/Df5C-cstxN6/",
+                "label": "Watch reel"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "partner",
+          "type": "cta",
+          "name": "Are you working on a fragrance project?",
+          "visible": true,
+          "content": {
+            "heading": "Are you working on a fragrance project?",
+            "text": "Tell me what you are working on and who it is for.",
+            "primaryLabel": "Explore partnerships",
+            "primaryHref": "/en/partners"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "testing-en",
+      "slug": "en/fragrance-notes/testing-a-fragrance",
+      "title": "How to test and compare perfume",
+      "locale": "en-GB",
+      "translationKey": "testing",
+      "seo": {
+        "title": "How to test and compare perfume | Scents with Seb",
+        "description": "From a paper strip to the drydown on skin.",
+        "image": "/media/project/fresh.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "How to test and compare perfume",
+            "text": "From a paper strip to the drydown on skin.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/fresh.webp",
+              "alt": "Light perfume bottle with limes and green leaves",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "part0",
+          "type": "richtext",
+          "name": "Start with a blotter",
+          "visible": true,
+          "content": {
+            "heading": "Start with a blotter",
+            "text": "Spray each fragrance onto its own paper strip and label it. Give it a moment before judging the opening."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part1",
+          "type": "richtext",
+          "name": "Try a favourite on skin",
+          "visible": true,
+          "content": {
+            "heading": "Try a favourite on skin",
+            "text": "Apply a fragrance on one wrist. Let it dry, then check back after an hour to see how the notes change."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part2",
+          "type": "richtext",
+          "name": "Keep a short note",
+          "visible": true,
+          "content": {
+            "heading": "Keep a short note",
+            "text": "Note the occasion, how noticeable it was and what you thought of the base. Next time you can compare with more intention."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Find a direction to try.",
+          "visible": true,
+          "content": {
+            "heading": "Find a direction to try.",
+            "primaryLabel": "Open scent finder",
+            "primaryHref": "/en/scent-finder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "families-en",
+      "slug": "en/fragrance-notes/fragrance-families",
+      "title": "Fragrance families made simple",
+      "locale": "en-GB",
+      "translationKey": "families",
+      "seo": {
+        "title": "Fragrance families made simple | Scents with Seb",
+        "description": "What makes fresh, woody and warm fragrances feel different on skin.",
+        "image": "/media/project/woods.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Fragrance families made simple",
+            "text": "What makes fresh, woody and warm fragrances feel different on skin.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/woods.webp",
+              "alt": "Dark bottle on a piece of cedar",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "part0",
+          "type": "richtext",
+          "name": "Fresh",
+          "visible": true,
+          "content": {
+            "heading": "Fresh",
+            "text": "Citrus and green accords often stand out first. Notice whether they become dry, soapy, soft or woody later."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part1",
+          "type": "richtext",
+          "name": "Woods",
+          "visible": true,
+          "content": {
+            "heading": "Woods",
+            "text": "Cedar often feels dry while sandalwood can be soft. Vetiver may read green, smoky or earthy. The combination matters."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part2",
+          "type": "richtext",
+          "name": "Warmth",
+          "visible": true,
+          "content": {
+            "heading": "Warmth",
+            "text": "Amber often describes a warm accord. A composition may emphasise sweetness, spices, resins or woods."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Find a direction to try.",
+          "visible": true,
+          "content": {
+            "heading": "Find a direction to try.",
+            "primaryLabel": "Open scent finder",
+            "primaryHref": "/en/scent-finder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "budget-en",
+      "slug": "en/fragrance-notes/budget",
+      "title": "Explore fragrance on a budget",
+      "locale": "en-GB",
+      "translationKey": "budget",
+      "seo": {
+        "title": "Explore fragrance on a budget | Scents with Seb",
+        "description": "How to compare samples, bottle sizes and prices.",
+        "image": "/media/project/amber.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Explore fragrance on a budget",
+            "text": "How to compare samples, bottle sizes and prices.",
+            "subheading": "SCENTS WITH SEB",
+            "image": {
+              "src": "/media/project/amber.webp",
+              "alt": "Amber bottle on cinnamon and vanilla pods",
+              "position": "50% 50%"
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "part0",
+          "type": "richtext",
+          "name": "Start small",
+          "visible": true,
+          "content": {
+            "heading": "Start small",
+            "text": "A sample gives you several chances to wear the same scent. Find out whether you enjoy the drydown as well as the first impression."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part1",
+          "type": "richtext",
+          "name": "Compare sizes",
+          "visible": true,
+          "content": {
+            "heading": "Compare sizes",
+            "text": "Look at the total price and price per millilitre. A small bottle might be the right size for occasional wear."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part2",
+          "type": "richtext",
+          "name": "Check your local price",
+          "visible": true,
+          "content": {
+            "heading": "Check your local price",
+            "text": "Video prices can vary by country, size and date. Check the retailer price before ordering."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "finder",
+          "type": "cta",
+          "name": "Find a direction to try.",
+          "visible": true,
+          "content": {
+            "heading": "Find a direction to try.",
+            "primaryLabel": "Open scent finder",
+            "primaryHref": "/en/scent-finder"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shop-en",
+      "slug": "en/shop",
+      "title": "Fragrance shop",
+      "locale": "en-GB",
+      "translationKey": "shop",
+      "seo": {
+        "title": "Fragrance shop | Scents with Seb",
+        "description": "Fragrance catalogue and enquiries about recommendations, scent families and availability.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "A place for your next fragrance idea.",
+            "text": "Browse the catalogue or ask about a fragrance you are curious about.",
+            "subheading": "SHOP",
+            "image": {
+              "src": "/media/project/hero.webp",
+              "alt": "Dark perfume bottle in warm light",
+              "position": "50% 50%"
+            },
+            "primaryLabel": "Ask about a fragrance",
+            "primaryHref": "/en/contact?service=Fragrance%20enquiry",
+            "secondaryLabel": "Cart",
+            "secondaryHref": "/en/cart"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "panorama",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        },
+        {
+          "id": "commerce",
+          "type": "creator-shop",
+          "name": "Shop module",
+          "visible": true,
+          "content": {
+            "heading": "Current catalogue",
+            "caption": "catalog"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "refs",
+          "type": "affiliate-links",
+          "name": "Partner links",
+          "visible": true,
+          "content": {
+            "heading": "Two scent profiles to explore",
+            "text": "The linked brand pages list the notes for each fragrance.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamot in the opening with vetiver and leather in the composition. A reference for a bright, woody direction.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "WOODY · BRAND LINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "See fragrance notes"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Lattafa lists cinnamon and nutmeg with dates, praline, vanilla and resins. A sweet, spicy direction.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "SPICY · BRAND LINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "See fragrance notes"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "name": "Questions about the selection",
+          "visible": true,
+          "content": {
+            "heading": "Questions about the selection",
+            "items": [
+              {
+                "id": "q1",
+                "title": "How do I know whether something is available?",
+                "text": "Items available to buy appear in the catalogue. You can also send me an enquiry about a fragrance you are interested in."
+              },
+              {
+                "id": "q2",
+                "title": "How do I know whether a scent suits me?",
+                "text": "Start on paper. Try a favourite on skin next and check in again after an hour."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 2,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact-en",
+      "slug": "en/contact",
+      "title": "Contact",
+      "locale": "en-GB",
+      "translationKey": "contact",
+      "seo": {
+        "title": "Contact | Scents with Seb",
+        "description": "Write to Seb about fragrance recommendations, videos or a collaboration.",
+        "image": "/media/project/sebastian.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Hey, what would you like to know?",
+            "text": "Found a scent, looking for a direction or interested in working together? Send me a note.",
+            "subheading": "CONTACT",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian talking in front of his fragrance shelf",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "Write a message",
+            "primaryHref": "#anfrage"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "anfrage",
+          "type": "contact",
+          "name": "Send me a note",
+          "visible": true,
+          "content": {
+            "heading": "Send me a note",
+            "text": "Tell me a little about what you need.",
+            "form": {
+              "nameLabel": "Your name",
+              "subjectLabel": "What is it about?",
+              "messageLabel": "Your message",
+              "messagePlaceholder": "Which notes, occasion or idea are you thinking about?",
+              "submitLabel": "Send enquiry",
+              "successHeading": "Your enquiry is in.",
+              "successText": "Thanks for writing. I’ll get back to you at the email address you provided."
+            }
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "next",
+          "type": "cards",
+          "name": "Can I help right away?",
+          "visible": true,
+          "content": {
+            "heading": "Can I help right away?",
+            "items": [
+              {
+                "id": "finder",
+                "title": "Scent finder",
+                "text": "Choose scent directions by occasion and family.",
+                "icon": "Sparkles",
+                "href": "/en/scent-finder",
+                "label": "Open scent finder"
+              },
+              {
+                "id": "reels",
+                "title": "Reels",
+                "text": "Selected fragrance videos and their Instagram originals.",
+                "icon": "Play",
+                "href": "/en/reels",
+                "label": "Watch reels"
+              },
+              {
+                "id": "partner",
+                "title": "Partnerships",
+                "text": "Find out about enquiries, product links and collaborations.",
+                "icon": "Handshake",
+                "href": "/en/partners",
+                "label": "Explore partnerships"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-en",
+      "slug": "en/cart",
+      "title": "Cart",
+      "locale": "en-GB",
+      "translationKey": "cart",
+      "seo": {
+        "title": "Cart | Scents with Seb",
+        "description": "Selected items and order summary.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "commerce",
+          "type": "creator-shop",
+          "name": "Shop module",
+          "visible": true,
+          "content": {
+            "heading": "Your cart",
+            "caption": "cart"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "back",
+          "type": "cta",
+          "name": "Keep exploring",
+          "visible": true,
+          "content": {
+            "heading": "Keep exploring",
+            "primaryLabel": "Back to shop",
+            "primaryHref": "/en/shop"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "partners-en",
+      "slug": "en/partners",
+      "title": "Partners & recommendations",
+      "locale": "en-GB",
+      "translationKey": "partners",
+      "seo": {
+        "title": "Partners & recommendations | Scents with Seb",
+        "description": "Recommendations, brand links and collaboration enquiries with Sebastian Maschberger.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "showcase-hero",
+          "name": "Introduction",
+          "visible": true,
+          "content": {
+            "heading": "Good ideas. Good collaborations.",
+            "text": "I’m interested in projects that bring something useful to my community. Find my channels, recommendations and contact for partnerships here.",
+            "subheading": "PARTNERS & RECOMMENDATIONS",
+            "image": {
+              "src": "/media/project/sebastian.webp",
+              "alt": "Sebastian talking in front of his fragrance shelf",
+              "position": "50% 0%"
+            },
+            "primaryLabel": "Enquire about a collaboration",
+            "primaryHref": "/en/contact?service=Partnership"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "heroLayout": "split"
+          }
+        },
+        {
+          "id": "links",
+          "type": "affiliate-links",
+          "name": "Partner links",
+          "visible": true,
+          "content": {
+            "heading": "Channels and recommendations",
+            "text": "Affiliate links are marked as advertising. I may earn a commission if you purchase through one.",
+            "items": [
+              {
+                "id": "explorer",
+                "title": "Montblanc Explorer",
+                "text": "Bergamot in the opening with vetiver and leather in the composition. A reference for a bright, woody direction.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Dark bottle on a piece of cedar",
+                  "position": "50% 50%"
+                },
+                "meta": "WOODY · BRAND LINK",
+                "href": "https://www.montblanc.com/en-us/fragrances/collection/explorer",
+                "label": "See fragrance notes"
+              },
+              {
+                "id": "khamrah",
+                "title": "Lattafa Khamrah",
+                "text": "Lattafa lists cinnamon and nutmeg with dates, praline, vanilla and resins. A sweet, spicy direction.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Amber bottle on cinnamon and vanilla pods",
+                  "position": "50% 50%"
+                },
+                "meta": "SPICY · BRAND LINK",
+                "href": "https://lattafa.com/product/khamrah/",
+                "label": "See fragrance notes"
+              },
+              {
+                "id": "instagram",
+                "title": "Scents with Seb",
+                "text": "Original reviews and fragrance ideas on my Instagram profile.",
+                "image": {
+                  "src": "/media/project/sebastian.webp",
+                  "alt": "Sebastian talking in front of his fragrance shelf",
+                  "position": "50% 0%"
+                },
+                "meta": "MY CHANNEL",
+                "href": "https://www.instagram.com/scentswithseb/",
+                "label": "Open Instagram profile"
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#efe5d8"
+          }
+        },
+        {
+          "id": "anfrage",
+          "type": "richtext",
+          "name": "What to include in an enquiry",
+          "visible": true,
+          "content": {
+            "heading": "What to include in an enquiry",
+            "text": "Send a short introduction, your idea, the format and a rough timeline. For product collaborations, include a link to the actual product.",
+            "primaryLabel": "Write a collaboration enquiry",
+            "primaryHref": "/en/contact?service=Partnership"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "cta",
+          "name": "Talk through an idea together.",
+          "visible": true,
+          "content": {
+            "heading": "Talk through an idea together.",
+            "primaryLabel": "Get in touch",
+            "primaryHref": "/en/contact"
+          },
+          "design": {
+            "theme": "dark",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left",
+            "background": "#251916",
+            "textColor": "#fbf7ed",
+            "accentColor": "#ffd7aa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "imprint-en",
+      "slug": "en/legal-notice",
+      "title": "Legal notice",
+      "locale": "en-GB",
+      "translationKey": "imprint",
+      "seo": {
+        "title": "Legal notice | Scents with Seb",
+        "description": "Provider and contact information.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "anbieter",
+          "type": "richtext",
+          "name": "Legal notice",
+          "visible": true,
+          "content": {
+            "heading": "Legal notice",
+            "text": "Sebastian Maschberger",
+            "items": [
+              {
+                "id": "provider",
+                "title": "Provider details",
+                "text": "The provider and contact information is available in the Train Like a Pro legal notice.",
+                "href": "https://trainlikeapro.coach/imprint/",
+                "label": "Open the provider’s legal notice"
+              },
+              {
+                "id": "contact",
+                "title": "Contact",
+                "text": " ",
+                "href": "/en/contact",
+                "label": "Get in touch"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "privacy-en",
+      "slug": "en/privacy",
+      "title": "Privacy",
+      "locale": "en-GB",
+      "translationKey": "privacy",
+      "seo": {
+        "title": "Privacy | Scents with Seb",
+        "description": "Notes on forms, local storage, external media and analytics.",
+        "image": "/media/project/hero.webp"
+      },
+      "sections": [
+        {
+          "id": "privacy",
+          "type": "richtext",
+          "name": "Privacy",
+          "visible": true,
+          "content": {
+            "heading": "Privacy",
+            "text": "These notes describe the features of this website. Contact me through the form if you have questions.",
+            "items": [
+              {
+                "id": "forms",
+                "title": "Enquiries",
+                "text": "When you submit the form, I store your name, email and message so I can respond. Save personal health details for a direct conversation."
+              },
+              {
+                "id": "storage",
+                "title": "Cart and saved items",
+                "text": "The website stores your selection in this browser. You can clear it in your browser settings."
+              },
+              {
+                "id": "media",
+                "title": "External videos and links",
+                "text": "Embedded videos load after your permission and share your IP address with the platform. External links take you to the relevant service."
+              },
+              {
+                "id": "analytics",
+                "title": "Optional analytics",
+                "text": "The website measures visits and usage after you allow analytics. You can change your choice in the footer’s cookie settings."
+              },
+              {
+                "id": "provider",
+                "title": "Provider",
+                "text": "",
+                "href": "/en/legal-notice",
+                "label": "Read legal notice"
+              }
+            ]
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        }
+      ]
+    }
+  ]
+}
