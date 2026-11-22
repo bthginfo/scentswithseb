@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "website": "https://scents-with-seb.vercel.app",
   "github": {
-    "repository": null,
+    "repository": "bthginfo/scentswithseb",
     "productionBranch": "main",
-    "status": "repository-creation-denied"
+    "visibility": "public"
   },
   "vercel": {
     "projectId": "prj_r8qqNe3RTV7S0uUJYf2z6dAVZk18",

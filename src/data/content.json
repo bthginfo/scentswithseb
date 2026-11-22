@@ -34,12 +34,12 @@
         "label": "Kontakt"
       }
     ],
-    "footerText": "Duftreviews und Tipps zum Testen, Vergleichen und Auswählen. Von Sebastian Maschberger.",
+    "footerText": "Ich bin Seb. Hier teile ich meine Duftreviews und zeige dir, wie ich Parfum für meinen Alltag teste und aussuche.",
     "openingHours": [],
     "theme": {
-      "primary": "#2b1c18",
-      "accent": "#e7b281",
-      "background": "#f6f1e9",
+      "primary": "#24160e",
+      "accent": "#e6bb87",
+      "background": "#15110f",
       "radius": 28,
       "font": "manrope",
       "presentation": "editorial",
@@ -47,21 +47,21 @@
       "glass": {
         "enabled": true,
         "background": "aurora",
-        "intensity": 14,
-        "speed": 25,
-        "depth": 20,
+        "intensity": 19,
+        "speed": 15,
+        "depth": 24,
         "reveal": true,
         "feedback": true,
-        "revealDuration": 500
+        "revealDuration": 460
       },
       "palettes": {
         "1": {
-          "primary": "#2b1c18",
-          "accent": "#e7b281",
-          "background": "#f6f1e9",
-          "text": "#2b1c18",
-          "surface": "#f0e6d9",
-          "border": "#e3d4c5"
+          "primary": "#24160e",
+          "accent": "#e6bb87",
+          "background": "#15110f",
+          "text": "#f7eee4",
+          "surface": "#2b211b",
+          "border": "#514035"
         }
       }
     },
@@ -188,7 +188,7 @@
             "label": "Contact"
           }
         ],
-        "footerText": "Fragrance reviews and tips for testing, comparing and choosing. By Sebastian Maschberger.",
+        "footerText": "I’m Seb. Here are my fragrance reviews and the ways I test and choose scents for everyday life.",
         "openingHours": [],
         "footer": {
           "brandText": "Scents with Seb",
@@ -271,7 +271,59 @@
         "enabled": true,
         "currency": "EUR",
         "shippingCents": 0,
-        "products": []
+        "products": [
+          {
+            "id": "sample-duftproben-frisch",
+            "slug": "duftproben-frisch",
+            "title": "Duftproben · Frisch",
+            "description": "Mein Beispiel für ein Set mit drei frischen Duftrichtungen. Ich würde Zitrus, grüne Noten und einen luftigen Duft nebeneinander ausprobieren.",
+            "titleEn": "Discovery set · Fresh",
+            "descriptionEn": "My example of a set with three fresh directions. I’d compare citrus, green notes and an airy fragrance side by side.",
+            "priceCents": 1600,
+            "kind": "physical",
+            "sample": true,
+            "active": true,
+            "image": {
+              "src": "/media/project/fresh.webp",
+              "alt": "Heller Flakon und Limette",
+              "position": "50% 50%"
+            }
+          },
+          {
+            "id": "sample-duftproben-holzig",
+            "slug": "duftproben-holzig",
+            "title": "Duftproben · Holz",
+            "description": "Alles dreht sich um Holz. Ich würde eine trockene Zedernrichtung und etwas Weicheres im Stil von Sandelholz für verschiedene Tage vorsehen.",
+            "titleEn": "Discovery set · Woods",
+            "descriptionEn": "This set is about woods. I’d try a dry cedar direction and something softer with a sandalwood feel on different days.",
+            "priceCents": 1800,
+            "kind": "physical",
+            "sample": true,
+            "active": true,
+            "image": {
+              "src": "/media/project/woods.webp",
+              "alt": "Dunkler Parfumflakon mit Holz",
+              "position": "50% 50%"
+            }
+          },
+          {
+            "id": "sample-duftproben-warm",
+            "slug": "duftproben-warm",
+            "title": "Duftproben · Warm",
+            "description": "Ein Beispiel für wärmere Düfte am Abend. Ich würde eine trockene Gewürzrichtung, weiches Amber und eine süßere Probe vergleichen.",
+            "titleEn": "Discovery set · Warm",
+            "descriptionEn": "An example for warmer evening fragrances. I’d compare dry spice, soft amber and one sweeter sample.",
+            "priceCents": 1800,
+            "kind": "physical",
+            "sample": true,
+            "active": true,
+            "image": {
+              "src": "/media/project/amber.webp",
+              "alt": "Parfumflakon im warmen Licht",
+              "position": "50% 50%"
+            }
+          }
+        ]
       }
     }
   },
@@ -283,8 +335,8 @@
       "locale": "de-DE",
       "translationKey": "home",
       "seo": {
-        "title": "Scents with Seb · Parfum & ehrliche Duftreviews",
-        "description": "Sebastian Maschberger zeigt preisbewusste Duftideen. Entdecke Reels, Duftfamilien und Tipps zum Parfumtest.",
+        "title": "Parfum, Duftfinder und Duftreviews | Scents with Seb",
+        "description": "Ich bin Sebastian Maschberger. Hier findest du meine Parfum-Reels, Duftideen für deinen Alltag und Guides zum Testen, Vergleichen und Kaufen.",
         "image": "/media/project/hero.webp"
       },
       "sections": [
@@ -295,7 +347,7 @@
           "visible": true,
           "content": {
             "heading": "Gut riechen.\nBesser wählen.",
-            "text": "Duftreviews und Ideen für deinen Alltag, vom ersten Sprühstoß bis zum Drydown.",
+            "text": "Ich bin Seb. Hier gibt’s meine Parfum-Reels, Duftideen für deinen Alltag und Tipps fürs Testen mit kleinem Budget.",
             "subheading": "DAS DUFTMAGAZIN VON SEB",
             "image": {
               "src": "/media/project/hero.webp",
@@ -320,9 +372,9 @@
             "animation": "reveal",
             "align": "left",
             "heroLayout": "panorama",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "background": "#261c17",
+            "textColor": "#f7eee4",
+            "accentColor": "#e6bb87"
           }
         },
         {
@@ -377,6 +429,63 @@
           },
           "design": {
             "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "duftverlauf",
+          "type": "workflow-demo",
+          "name": "Wie sich ein Duft entwickelt",
+          "visible": true,
+          "content": {
+            "heading": "Wie sich ein Duft entwickelt",
+            "text": "Ich rieche nach dem Aufsprühen immer wieder hin. Geh die drei Zeitpunkte durch und beobachte beim nächsten Test, was bei dir zuerst auffällt und was später übrig bleibt.",
+            "items": [
+              {
+                "id": "scent-stage-1",
+                "title": "Auftakt",
+                "text": "Kurz nach dem Sprühen fällt mir bei frischen Düften oft die helle Zitrusnote auf. Was riechst du zuerst? Schreib ein Wort auf und gib der Probe Zeit.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Frischer Duft mit Limettenschale",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-2",
+                "title": "Herz",
+                "text": "Wenn der erste Eindruck ruhiger wird, kann etwas Grünes, Blumiges oder Würziges deutlicher werden. Jetzt zeigt sich für mich oft der Charakter eines Dufts.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Flakon mit Holz und grünen Pflanzen",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-3",
+                "title": "Drydown",
+                "text": "Nach ein paar Stunden merke ich, was nah an der Haut geblieben ist. Vielleicht riechst du Holz, ein wenig Süße oder warmes Amber. Dann frage ich mich, ob ich den Duft morgen wieder tragen würde.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Flakon im warmen Bernsteinlicht",
+                  "position": "50% 50%"
+                }
+              }
+            ],
+            "primaryHref": "/duftwissen",
+            "primaryLabel": "Mein Duftwissen entdecken"
+          },
+          "design": {
+            "theme": "soft",
             "headingFont": "display",
             "fontScale": 1,
             "radius": 28,
@@ -452,8 +561,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -483,6 +591,31 @@
             "imageSide": "left",
             "columns": 3,
             "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-about-1",
+          "type": "richtext",
+          "name": "So geh ich an einen neuen Duft ran",
+          "visible": true,
+          "content": {
+            "heading": "So geh ich an einen neuen Duft ran",
+            "text": "Bevor ich einen Flakon kaufe, frage ich mich, wann ich ihn tragen würde. Am Schreibtisch sitzen Leute nah bei mir, beim Abendessen ist wieder eine andere Stimmung. Ein Duft darf mir bei einem Anlass richtig gut gefallen, auch wenn ich ihn an einem anderen Tag stehen lasse.\n\nDann trage ich eine kleine Probe länger auf der Haut. Den ersten Sprühstoß finde ich spannend. Ob ich den Duft wieder tragen möchte, weiß ich oft erst, wenn ich ihn nach ein paar Stunden noch mal rieche.",
+            "primaryHref": "/duftwissen/parfum-testen",
+            "primaryLabel": "So teste ich Parfum"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -583,6 +716,18 @@
                 "meta": "WÜRZIG · HERSTELLERLINK",
                 "href": "https://lattafa.com/product/khamrah/",
                 "label": "Duftnoten ansehen"
+              },
+              {
+                "id": "mykonos",
+                "title": "Mykonos",
+                "text": "In meinem Reel zu Reisedüften habe ich Mykonos markiert. Hier kannst du dir anschauen, welche Düfte die Marke anbietet.",
+                "href": "https://officialmykonos.com/",
+                "label": "Zu Mykonos",
+                "meta": "AUS MEINEM REISE-REEL",
+                "icon": "external-link",
+                "tags": [
+                  "affiliate-example"
+                ]
               }
             ],
             "primaryLabel": "Partner und Empfehlungen",
@@ -599,8 +744,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -644,8 +788,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -670,10 +813,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -685,8 +825,8 @@
       "locale": "de-DE",
       "translationKey": "finder",
       "seo": {
-        "title": "Duftfinder | Scents with Seb",
-        "description": "Entdecke Duftfamilien nach Anlass und speichere passende Ideen für deinen nächsten Test.",
+        "title": "Duftfinder für Alltag, Büro und Abend | Scents with Seb",
+        "description": "Ich helfe dir, Parfum nach Anlass und Duftfamilie auszuwählen. Such dir zwei Richtungen aus, merk sie dir und probier sie auf der Haut.",
         "image": "/media/project/fresh.webp"
       },
       "sections": [
@@ -840,8 +980,55 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-finder-1",
+          "type": "richtext",
+          "name": "So nutze ich den Duftfinder",
+          "visible": true,
+          "content": {
+            "heading": "So nutze ich den Duftfinder",
+            "text": "Wähl zuerst einen Anlass und dann eine Richtung, wenn du schon eine im Kopf hast. Für einen normalen Arbeitstag könnte ich mit „Alltag“ und etwas Frischem starten. Wenn du lieber warme Düfte trägst, probier den gleichen Anlass mit „Warm“ und schau, was du davon gern bei dir riechen würdest.\n\nSpeichere die Ideen, die dich interessieren. Die Merkliste liegt in diesem Browser. Bei der nächsten Probe helfen dir zwei Stichworte pro Richtung, dich an deine Auswahl zu erinnern."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-finder-2",
+          "type": "richtext",
+          "name": "Wie ich bei Büro, Gym und Abend unterscheide",
+          "visible": true,
+          "content": {
+            "heading": "Wie ich bei Büro, Gym und Abend unterscheide",
+            "text": "Im Büro und im Gym sind andere Menschen oft nah dran. Da probiere ich einen Duft lieber zurückhaltend aus und schaue, wie deutlich er um mich herum zu riechen ist. Für einen Abend kann ein trockener Holzduft oder etwas Würziges interessant sein, je nachdem, was du magst und wo du hingehen willst.\n\nAls Nächstes trag eine Probe in einer ähnlichen Situation. In meiner Anleitung findest du einen Ablauf für Papierstreifen, Haut und den späteren Duftverlauf.",
+            "primaryHref": "/duftwissen/parfum-testen",
+            "primaryLabel": "So teste ich Parfum"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
           }
         },
         {
@@ -924,6 +1111,16 @@
                 "id": "q2",
                 "title": "Was heißt Drydown?",
                 "text": "So nennt man die spätere Duftphase auf der Haut, nachdem die ersten, flüchtigen Noten abgeklungen sind."
+              },
+              {
+                "id": "editorial-question-1",
+                "title": "Warum sehe ich mit meinen Filtern keine Ideen?",
+                "text": "Wenn eine Kombination leer bleibt, geh bei der Duftfamilie auf „Alle“ zurück und behalte den Anlass bei. So siehst du, welche Richtungen für den Moment im Finder liegen."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Wo finde ich meine gespeicherten Ideen?",
+                "text": "Öffne die Merkliste oben im Finder. Deine Auswahl bleibt auf dem Gerät im selben Browser verfügbar, solange dessen Websitedaten erhalten bleiben."
               }
             ]
           },
@@ -938,8 +1135,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -963,10 +1159,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -978,8 +1171,8 @@
       "locale": "de-DE",
       "translationKey": "reels",
       "seo": {
-        "title": "Reels | Scents with Seb",
-        "description": "Original-Reels von Scents with Seb über Gym-Düfte, preiswerte Abenddüfte, Reisen und Parfum für den Alltag.",
+        "title": "Meine Parfum-Reels und Duftreviews | Scents with Seb",
+        "description": "Schau meine kurzen Instagram-Reels über Parfum fürs Gym, Duftideen für den Sommer und Empfehlungen zum Ausprobieren mit kleinem Budget.",
         "image": "/media/project/reel-2.webp"
       },
       "sections": [
@@ -1150,6 +1343,90 @@
           }
         },
         {
+          "id": "guide-follow-1",
+          "type": "richtext",
+          "name": "Wie ich aus einem Reel eine Probe mache",
+          "visible": true,
+          "content": {
+            "heading": "Wie ich aus einem Reel eine Probe mache",
+            "text": "Wenn dich ein Duft im Video anspricht, merk dir zuerst, für welche Situation du ihn ausprobieren willst. Bei einem Sommerduft interessiert mich zum Beispiel, wie er nachmittags bei Wärme wirkt. Bei einem Duft fürs Gym probiere ich lieber erst in Ruhe, ob der Eindruck auch in meiner Nähe dezent bleibt.\n\nMit einer kleinen Probe kannst du die Idee an zwei Tagen wiederholen. Wenn dir vor allem das Thema im Video gefällt, findest du im Duftfinder weitere Richtungen für denselben Anlass.",
+            "primaryHref": "/duftfinder",
+            "primaryLabel": "Duftfinder ausprobieren"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-follow-2",
+          "type": "richtext",
+          "name": "Welches Reel zu deiner Frage passt",
+          "visible": true,
+          "content": {
+            "heading": "Welches Reel zu deiner Frage passt",
+            "text": "Wenn du nach einem Duft fürs Training suchst, fang mit dem Gym-Reel oben an. In der Übersicht findest du auch Videos zu warmen Tagen und zu günstigeren Düften. Ich mag es, wenn ich nach dem Schauen eine klare Idee habe, wonach ich beim nächsten Parfumeriebesuch riechen will.\n\nWenn dir eine Duftnote neu ist, kannst du sie in meinen Guides einordnen. Beim Testen merkst du vielleicht, dass dir eine ganze Richtung gefällt, auch wenn der Flakon aus dem Video für dich keine Option ist.",
+            "primaryHref": "/duftwissen",
+            "primaryLabel": "Mein Duftwissen"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "Fragen zu meinen Reels",
+          "visible": true,
+          "content": {
+            "heading": "Fragen zu meinen Reels",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Kann ich die Reels direkt bei Instagram ansehen?",
+                "text": "Ja, bei jedem Reel ist ein Link zu meinem Originalbeitrag. Beim Video oben kannst du außerdem das Instagram-Video auf dieser Seite laden."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Welches Reel soll ich ansehen, wenn ich wenig ausgeben will?",
+                "text": "Schau beim Video zum kleineren Budget vorbei. Wenn dich etwas anspricht, würde ich vor dem Kauf eine Probe suchen und schauen, wie oft du es tragen würdest."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "follow",
           "type": "cta",
           "name": "Suchst du nach Duftideen für einen Anlass?",
@@ -1170,10 +1447,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -1185,8 +1459,8 @@
       "locale": "de-DE",
       "translationKey": "notes",
       "seo": {
-        "title": "Duftwissen | Scents with Seb",
-        "description": "Parfum testen, Duftfamilien erkennen und Düfte nach Budget vergleichen.",
+        "title": "Duftwissen: Parfum testen, Duftfamilien und Budget | Scents with Seb",
+        "description": "Ich erkläre Duftnoten, Drydown, Haltbarkeit und Duftfamilien. Mit meinen Anleitungen testest du Parfum Schritt für Schritt.",
         "image": "/media/project/woods.webp"
       },
       "sections": [
@@ -1284,6 +1558,111 @@
           }
         },
         {
+          "id": "duftverlauf",
+          "type": "workflow-demo",
+          "name": "Wie sich ein Duft entwickelt",
+          "visible": true,
+          "content": {
+            "heading": "Wie sich ein Duft entwickelt",
+            "text": "Ich rieche nach dem Aufsprühen immer wieder hin. Geh die drei Zeitpunkte durch und beobachte beim nächsten Test, was bei dir zuerst auffällt und was später übrig bleibt.",
+            "items": [
+              {
+                "id": "scent-stage-1",
+                "title": "Auftakt",
+                "text": "Kurz nach dem Sprühen fällt mir bei frischen Düften oft die helle Zitrusnote auf. Was riechst du zuerst? Schreib ein Wort auf und gib der Probe Zeit.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Frischer Duft mit Limettenschale",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-2",
+                "title": "Herz",
+                "text": "Wenn der erste Eindruck ruhiger wird, kann etwas Grünes, Blumiges oder Würziges deutlicher werden. Jetzt zeigt sich für mich oft der Charakter eines Dufts.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "Flakon mit Holz und grünen Pflanzen",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-3",
+                "title": "Drydown",
+                "text": "Nach ein paar Stunden merke ich, was nah an der Haut geblieben ist. Vielleicht riechst du Holz, ein wenig Süße oder warmes Amber. Dann frage ich mich, ob ich den Duft morgen wieder tragen würde.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "Flakon im warmen Bernsteinlicht",
+                  "position": "50% 50%"
+                }
+              }
+            ],
+            "primaryHref": "/duftwissen/parfum-testen",
+            "primaryLabel": "Meine Anleitung zum Testen"
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-references-1",
+          "type": "richtext",
+          "name": "Duftnoten beim Testen wiedererkennen",
+          "visible": true,
+          "content": {
+            "heading": "Duftnoten beim Testen wiedererkennen",
+            "text": "Mit „Kopfnote“ meine ich den ersten Eindruck nach dem Sprühen. Die Herznote ist der Charakter, der danach deutlicher werden kann. Als Basis oder Drydown beschreibe ich das, was für mich später übrig bleibt. Manche Düfte verändern sich deutlich, andere bleiben über die Zeit recht ähnlich.\n\nWenn ich einen Duft kennenlerne, beschreibe ich erst, was ich selbst rieche. Das kann etwas Einfaches wie „trocken“, „süß“ oder „erinnert mich an Zitronenschale“ sein. Ich schaue mir danach gern die Liste des Herstellers an, um neue Wörter dafür zu finden.",
+            "primaryHref": "/duftwissen/duftfamilien",
+            "primaryLabel": "Meine Anleitung zu Duftfamilien"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-references-2",
+          "type": "richtext",
+          "name": "Haltbarkeit und Sillage unterscheiden",
+          "visible": true,
+          "content": {
+            "heading": "Haltbarkeit und Sillage unterscheiden",
+            "text": "Haltbarkeit beschreibt für mich, wie lange ich den Duft noch wahrnehme. Wenn ich am Handgelenk auch am Abend noch etwas rieche, sagt das wenig darüber aus, wie weit der Duft im Raum wahrnehmbar ist. Mit Sillage ist die Duftspur gemeint, die du beim Vorbeigehen hinterlassen kannst.\n\nFürs Büro interessiert mich, ob ich den Duft bei Bewegung selbst angenehm wahrnehme. Wenn die Lautstärke wichtig ist, frage ich eine vertraute Person, wie sie ihn in meiner Nähe riecht. Dann weiß ich mehr, als wenn ich den ganzen Nachmittag am gleichen Handgelenk rieche."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "references",
           "type": "affiliate-links",
           "name": "Partnerlinks",
@@ -1331,8 +1710,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -1352,6 +1730,16 @@
                 "id": "q2",
                 "title": "Was heißt Drydown?",
                 "text": "So nennt man die spätere Duftphase auf der Haut, nachdem die ersten, flüchtigen Noten abgeklungen sind."
+              },
+              {
+                "id": "editorial-question-1",
+                "title": "Ist Eau de Parfum immer länger wahrnehmbar als Eau de Toilette?",
+                "text": "Die Bezeichnung gibt einen Anhaltspunkt zur Duftkonzentration. Die Rezepturen können sich unterscheiden. Ich probiere die Version, die mich interessiert, auf der Haut und schaue nach ein paar Stunden noch mal hin."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Womit fange ich an, wenn mir alle Parfums ähnlich vorkommen?",
+                "text": "Ich würde zwei deutlich verschiedene Richtungen auf getrennten Papierstreifen probieren, etwa Zitrus und warmes Holz. Beschrifte die Streifen und riech mit etwas Abstand noch mal daran."
               }
             ]
           },
@@ -1366,8 +1754,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -1391,10 +1778,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -1406,8 +1790,8 @@
       "locale": "de-DE",
       "translationKey": "about",
       "seo": {
-        "title": "Über Seb | Scents with Seb",
-        "description": "Sebastian Maschberger ist der Creator hinter Scents with Seb. Seine Videos zeigen Duftideen für Alltag, Training und besondere Anlässe.",
+        "title": "Über mich, Sebastian Maschberger | Scents with Seb",
+        "description": "Ich bin Seb und teile meine Begeisterung für Parfum. Erfahre, wie ich Düfte teste, über Budget spreche und Inspiration für meine Reels finde.",
         "image": "/media/project/sebastian.webp"
       },
       "sections": [
@@ -1526,8 +1910,57 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-partner-1",
+          "type": "richtext",
+          "name": "Was ich an bezahlbaren Düften mag",
+          "visible": true,
+          "content": {
+            "heading": "Was ich an bezahlbaren Düften mag",
+            "text": "Auf Scents with Seb zeige ich, wie viel Spaß Parfum mit kleinem Budget machen kann. Mich reizt die Frage, ob ich eine Probe mehrmals tragen möchte. Wenn ich am nächsten Morgen wieder dazu greife, sagt mir das viel über meine eigene Vorliebe.\n\nBei jedem Kauf schaue ich, ob der Duft eine Situation in meiner Woche hat. Wenn ich schon zwei ähnliche Flakons benutze, reicht mir oft die Probe. Wenn ich sie leer trage und sie vermisse, kann ich über eine größere Menge nachdenken.",
+            "primaryHref": "/duftwissen/budget",
+            "primaryLabel": "Mein Budget-Guide"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-partner-2",
+          "type": "richtext",
+          "name": "Wie ich über einen Duft spreche",
+          "visible": true,
+          "content": {
+            "heading": "Wie ich über einen Duft spreche",
+            "text": "Ich versuche, meinen Eindruck so zu beschreiben, dass du ihn dir vorstellen kannst. Rieche ich etwas Herbes, das mich an Schale erinnert? Wird es mit der Zeit wärmer? Würde ich den Duft auch in einem kleinen Raum tragen? Das sind Dinge, die man selbst gut ausprobieren kann.\n\nWenn wir denselben Duft verschieden wahrnehmen, interessiert mich dein Eindruck. Schreib mir gern, wann du ihn getragen hast und was bei dir nach ein paar Stunden übrig war.",
+            "primaryHref": "/kontakt",
+            "primaryLabel": "Schreib mir"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
           }
         },
         {
@@ -1552,10 +1985,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -1567,8 +1997,8 @@
       "locale": "de-DE",
       "translationKey": "testing",
       "seo": {
-        "title": "Parfum testen und vergleichen | Scents with Seb",
-        "description": "Vom Duftstreifen bis zum Drydown auf der Haut.",
+        "title": "Parfum testen: Duftstreifen, Haut und Drydown | Scents with Seb",
+        "description": "So vergleiche ich Parfum auf Papier und Haut. Mit meinem Ablauf für erste Eindrücke, den Test über mehrere Stunden und eine Kaufentscheidung.",
         "image": "/media/project/fresh.webp"
       },
       "sections": [
@@ -1579,8 +2009,8 @@
           "visible": true,
           "content": {
             "heading": "Parfum testen und vergleichen",
-            "text": "Vom Duftstreifen bis zum Drydown auf der Haut.",
-            "subheading": "SCENTS WITH SEB",
+            "text": "Ich beginne auf beschrifteten Duftstreifen, trage einen Favoriten auf der Haut und rieche über den Tag verteilt noch mal daran. Hier ist mein Ablauf, vom Laden bis zur zweiten Probe.",
+            "subheading": "Duftwissen · Sebastian Maschberger",
             "image": {
               "src": "/media/project/fresh.webp",
               "alt": "Heller Flakon mit Limetten und grünen Blättern",
@@ -1605,69 +2035,151 @@
         {
           "id": "part0",
           "type": "richtext",
-          "name": "Auf Papier vorsortieren",
+          "name": "Mit einer Frage zum Testen kommen",
           "visible": true,
           "content": {
-            "heading": "Auf Papier vorsortieren",
-            "text": "Sprühe jeweils einen Duft auf einen Papierstreifen und beschrifte ihn. Warte kurz, bevor du die erste Note beurteilst."
+            "heading": "Mit einer Frage zum Testen kommen",
+            "text": "Suchst du einen Duft für enge Büroräume, für einen warmen Tag oder fürs Ausgehen? Ich wähle den Anlass vorher aus. Dann kann ich auch im Laden besser entscheiden, welche Eindrücke gerade interessant für mich sind.\n\nWenn du A und B vergleichen willst, halte die Auswahl klein. Ich fange bei zwei oder drei Kandidaten an. Danach geh ich gern kurz an die frische Luft und mache beim nächsten Besuch weiter, wenn ich mehr testen will."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part1",
           "type": "richtext",
-          "name": "Einen Favoriten auf der Haut testen",
+          "name": "Auf Papier vorsortieren",
           "visible": true,
           "content": {
-            "heading": "Einen Favoriten auf der Haut testen",
-            "text": "Trage einen Duft auf ein Handgelenk auf. Lass ihn trocknen und prüfe nach einer Stunde, wie sich die Noten verändert haben."
+            "heading": "Auf Papier vorsortieren",
+            "text": "Ich beschrifte jeden Papierstreifen direkt und sprühe je einen Duft darauf. Gib dem Streifen kurz Zeit zum Trocknen und riech mit etwas Abstand daran. Schreib ein oder zwei Wörter auf, etwa „hell und herb“ oder „warm und süß“.\n\nDie Streifen halte ich getrennt, damit sie sich nicht gegenseitig parfümieren. Wenn sie später anders riechen als am Anfang, ist das ein Grund, noch mal hinzuriechen. Für den Eindruck auf der eigenen Haut nehme ich einen Favoriten mit."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part2",
           "type": "richtext",
-          "name": "Dein Urteil festhalten",
+          "name": "Einen Favoriten auf der Haut tragen",
           "visible": true,
           "content": {
-            "heading": "Dein Urteil festhalten",
-            "text": "Notiere Anlass, Lautstärke und was du von der Basis hältst. Beim nächsten Test kannst du gezielter vergleichen."
+            "heading": "Einen Favoriten auf der Haut tragen",
+            "text": "Ich starte auf sauberer, intakter Haut und lass den Duft trocknen. Für den Vergleich am selben Tag kannst du links und rechts je einen Kandidaten tragen. Ich notiere, welcher wo ist. Wenn du empfindlich reagierst, schau auf die Hinweise des Herstellers und lass eine Probe aus, wenn deine Haut schon gereizt ist.\n\nIch rieche nach dem Aufsprühen, wenn sich der erste Eindruck gelegt hat und später am Tag noch mal. Die Uhrzeit ist für mich eine Gedächtnisstütze. So kann ich ungefähr nachvollziehen, wann mir welche Facette aufgefallen ist."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part3",
+          "type": "richtext",
+          "name": "Drydown und Lautstärke einschätzen",
+          "visible": true,
+          "content": {
+            "heading": "Drydown und Lautstärke einschätzen",
+            "text": "Ich frage mich später, was ich am Duft noch erkenne. Ist die Zitrusnote weg und das Holz wirkt weich? Spüre ich beim Bewegen noch einen Hauch, oder nehme ich ihn nur direkt am Handgelenk wahr? Das sagt mir, wie er für diesen Anlass wirkt.\n\nIch teste gern noch an einem zweiten Tag. Wärme, Kleidung und Umgebung können eine Rolle spielen. Gib dem Duft Gelegenheit, dich in der Situation zu begleiten, für die du ihn suchst."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part4",
+          "type": "richtext",
+          "name": "Aus der Probe eine Kaufentscheidung machen",
+          "visible": true,
+          "content": {
+            "heading": "Aus der Probe eine Kaufentscheidung machen",
+            "text": "Mein kurzer Eintrag lautet etwa „Büro, anfangs klar, nachmittags weicher, würde ich noch mal tragen“. Wenn ich zwischen zwei Proben schwanke, trag ich zuerst diejenige erneut, an die ich von selbst denke. Wenn ich nach einer dritten Gelegenheit immer noch unsicher bin, warte ich mit dem Flakon.\n\nIm Duftfinder kannst du Richtungen nach Anlass sammeln. Versuch es mit zwei deutlich verschiedenen Richtungen, wenn du erst anfängst.",
+            "primaryHref": "/duftfinder",
+            "primaryLabel": "Duftfinder ausprobieren"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "Fragen zum Beitrag",
+          "visible": true,
+          "content": {
+            "heading": "Fragen zum Beitrag",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Riecht Parfum auf der Haut anders als auf Papier?",
+                "text": "Das kann passieren. Ich beobachte auf Papier, was mir grundsätzlich gefällt, und entscheide nach einem Hauttest, ob ich einen Duft selbst tragen möchte."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Wie lange sollte ich vor dem Kauf testen?",
+                "text": "Ich trage einen Favoriten ein paar Stunden und möglichst an einem zweiten Tag. So kann ich den späteren Duftverlauf und den Eindruck bei meinem Anlass vergleichen."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -1679,7 +2191,9 @@
           "content": {
             "heading": "Finde eine Richtung zum Testen.",
             "primaryLabel": "Duftfinder öffnen",
-            "primaryHref": "/duftfinder"
+            "primaryHref": "/duftfinder",
+            "secondaryHref": "/duftwissen/duftfamilien",
+            "secondaryLabel": "Meine Anleitung zu Duftfamilien"
           },
           "design": {
             "theme": "dark",
@@ -1692,10 +2206,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -1707,8 +2218,8 @@
       "locale": "de-DE",
       "translationKey": "families",
       "seo": {
-        "title": "Duftfamilien einfach erklärt | Scents with Seb",
-        "description": "Was frische, holzige und warme Düfte auf der Haut unterscheidet.",
+        "title": "Duftfamilien erklärt: Frisch, holzig, würzig | Scents with Seb",
+        "description": "Ich zeige dir, wie ich frische, holzige und warme Düfte vergleiche. Mit konkreten Duftnoten und einem einfachen Test für deine Vorlieben.",
         "image": "/media/project/woods.webp"
       },
       "sections": [
@@ -1719,8 +2230,8 @@
           "visible": true,
           "content": {
             "heading": "Duftfamilien einfach erklärt",
-            "text": "Was frische, holzige und warme Düfte auf der Haut unterscheidet.",
-            "subheading": "SCENTS WITH SEB",
+            "text": "Frisch, holzig und warm-würzig sind für mich drei Einstiege ins Parfumregal. Ich beschreibe dir, worauf ich bei jeder Richtung achte und wie du zwei Proben sinnvoll vergleichst.",
+            "subheading": "Duftwissen · Sebastian Maschberger",
             "image": {
               "src": "/media/project/woods.webp",
               "alt": "Dunkler Flakon auf einem Stück Zedernholz",
@@ -1745,69 +2256,151 @@
         {
           "id": "part0",
           "type": "richtext",
-          "name": "Frische",
+          "name": "Was eine Duftfamilie dir schon verrät",
           "visible": true,
           "content": {
-            "heading": "Frische",
-            "text": "Zitrus und grüne Akkorde fallen oft zuerst auf. Achte darauf, ob der Duft später trocken, seifig, weich oder holzig wird."
+            "heading": "Was eine Duftfamilie dir schon verrät",
+            "text": "Duftfamilien helfen mir, meine Suche zu sortieren. Wenn ich „holzig“ sage, kann ich trockenes Zedernholz oder etwas weicheres wie Sandelholz meinen. So eine Einordnung sagt dir, in welche Richtung du testen könntest.\n\nEin Duft kann mehrere Richtungen verbinden. Ein heller Start mit Zitrus und eine trockene Basis lassen sich auf einem Streifen gut nacheinander entdecken. Ich höre darauf, welche Richtung für mich später im Vordergrund steht."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part1",
           "type": "richtext",
-          "name": "Holz",
+          "name": "Frisch kann herb, grün oder luftig sein",
           "visible": true,
           "content": {
-            "heading": "Holz",
-            "text": "Zeder wirkt oft trocken, Sandelholz eher weich. Vetiver kann grün, rauchig oder erdig erscheinen. Die Kombination entscheidet."
+            "heading": "Frisch kann herb, grün oder luftig sein",
+            "text": "Bei Zitrus denke ich an Schale, Saft und bittere weiße Haut. „Grün“ beschreibt für mich oft etwas Krautiges, Blattiges oder Klares. Marine Eindrücke können mich an kühle Luft oder eine leicht salzige Brise erinnern.\n\nWenn du Frische magst und mehr darüber wissen willst, vergleich zwei verschiedene Sorten. Prüfe später, ob die Frische bleibt oder der Duft mit einer ganz anderen Basis endet. Das macht im Alltag für mich einen großen Unterschied."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part2",
           "type": "richtext",
-          "name": "Wärme",
+          "name": "Holz von trocken bis weich",
           "visible": true,
           "content": {
-            "heading": "Wärme",
-            "text": "Amber beschreibt oft einen warmen Akkord. Süße, Gewürze, Harze und Hölzer können darin unterschiedlich betont sein."
+            "heading": "Holz von trocken bis weich",
+            "text": "Wenn ich Zeder rieche, denke ich manchmal an frisch angespitzte Bleistifte. Sandelholz kann auf mich weicher wirken, und Vetiver bringt je nach Duft einen trockenen, grünen oder erdigen Eindruck. Die Liste auf der Packung hilft mir, einen ersten Hinweis zu finden.\n\nIch probiere einen eher trockenen und einen weicheren Duft an zwei Tagen. Wenn ich am zweiten noch an den ersten denke, schreib ich mir auf, was ich vermisse. Das kann zum Beispiel der trockene Abschluss sein."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part3",
+          "type": "richtext",
+          "name": "Würze und Süße auseinanderhalten",
+          "visible": true,
+          "content": {
+            "heading": "Würze und Süße auseinanderhalten",
+            "text": "Warme Düfte können mich an Zimt, Kardamom, Vanille oder Harz erinnern. Manche wirken für mich wie trockene Gewürze. Andere bleiben süßer und weicher auf der Haut. Vor einem Flakon würde ich herausfinden, welche Art von Wärme ich öfter tragen möchte.\n\nLattafa Khamrah und Montblanc Explorer sind zwei Beispiele, zu denen ich auf den Duftwissen-Seiten die offiziellen Angaben verlinke. Schau auf die Noten und riech später selbst, welche Eindrücke du am deutlichsten wahrnimmst."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part4",
+          "type": "richtext",
+          "name": "Mit zwei Streifen deine Richtung finden",
+          "visible": true,
+          "content": {
+            "heading": "Mit zwei Streifen deine Richtung finden",
+            "text": "Wähle eine frische und eine holzige oder warme Probe. Beschrifte sie, riech abwechselnd und gib beiden ein bisschen Zeit. Welchen würdest du morgen gern tragen? Und was wäre der Anlass? Die Antworten helfen bei deinem nächsten Test.\n\nIm Duftfinder kannst du nach einer Familie filtern oder den Anlass zuerst festlegen. Wenn du die Richtung noch offen lassen willst, probier die Familien nacheinander aus.",
+            "primaryHref": "/duftfinder",
+            "primaryLabel": "Duftfinder ausprobieren"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "Fragen zum Beitrag",
+          "visible": true,
+          "content": {
+            "heading": "Fragen zum Beitrag",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Kann ein Parfum frisch und holzig sein?",
+                "text": "Ja. Ich teste gern, wie sich ein frischer Auftakt im Lauf des Tages entwickelt. Dann merke ich, ob für mich später das Holz oder die Frische im Vordergrund steht."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Welche Duftfamilie passt für jeden Tag?",
+                "text": "Ich würde mit dem anfangen, was du nah an dir gern riechst. Für viele Anlässe lohnt es sich zu probieren, wie der Duft in einem kleinen Raum wirkt und wie er sich nach ein paar Stunden anfühlt."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -1819,7 +2412,9 @@
           "content": {
             "heading": "Finde eine Richtung zum Testen.",
             "primaryLabel": "Duftfinder öffnen",
-            "primaryHref": "/duftfinder"
+            "primaryHref": "/duftfinder",
+            "secondaryHref": "/duftwissen/parfum-testen",
+            "secondaryLabel": "So teste ich Parfum"
           },
           "design": {
             "theme": "dark",
@@ -1832,10 +2427,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -1847,8 +2439,8 @@
       "locale": "de-DE",
       "translationKey": "budget",
       "seo": {
-        "title": "Düfte mit kleinem Budget entdecken | Scents with Seb",
-        "description": "Wie du Proben, Größen und Preise sinnvoll vergleichst.",
+        "title": "Günstiges Parfum aussuchen | Mein Budget-Guide",
+        "description": "Ich zeige dir, wie ich erst eine Probe teste, Preis pro Milliliter einordne und die passende Flakongröße für meinen Alltag finde.",
         "image": "/media/project/amber.webp"
       },
       "sections": [
@@ -1859,8 +2451,8 @@
           "visible": true,
           "content": {
             "heading": "Düfte mit kleinem Budget entdecken",
-            "text": "Wie du Proben, Größen und Preise sinnvoll vergleichst.",
-            "subheading": "SCENTS WITH SEB",
+            "text": "Bei einem kleineren Budget gebe ich lieber erst ein paar Euro für eine Probe aus. Wenn ich danach weiß, wann ich den Duft trage und wie er auf meiner Haut riecht, kann ich eine Flakongröße auswählen.",
+            "subheading": "Duftwissen · Sebastian Maschberger",
             "image": {
               "src": "/media/project/amber.webp",
               "alt": "Bernsteinfarbener Flakon auf Zimt und Vanilleschoten",
@@ -1885,69 +2477,153 @@
         {
           "id": "part0",
           "type": "richtext",
-          "name": "Klein anfangen",
+          "name": "Mit deinem Anlass und deinem Budget anfangen",
           "visible": true,
           "content": {
-            "heading": "Klein anfangen",
-            "text": "Eine Probe gibt dir mehrere Gelegenheiten, denselben Duft zu tragen. So merkst du, ob dich nach dem ersten Eindruck auch der Drydown überzeugt."
+            "heading": "Mit deinem Anlass und deinem Budget anfangen",
+            "text": "Nimm eine Situation, die in deiner Woche wirklich vorkommt. Wenn du fast jeden Tag ins Büro gehst, würde ich für diesen Alltag suchen, bevor ich Geld für einen Duft ausgebe, den ich nur zu besonderen Anlässen trage. Leg vorher einen Betrag fest, mit dem du dich wohlfühlst.\n\nBeim Vergleichen rechne ich die Probe oder den Versand mit ein. Wenn du im Laden in Ruhe testen kannst, lernst du vielleicht zwei Richtungen kennen und kaufst erst später die passende Größe."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part1",
           "type": "richtext",
-          "name": "Größen vergleichen",
+          "name": "Die Probe bis zum Ende tragen",
           "visible": true,
           "content": {
-            "heading": "Größen vergleichen",
-            "text": "Schau dir Gesamtpreis und Preis pro Milliliter an. Eine kleine Flasche kann für einen seltenen Anlass die passendere Größe sein."
+            "heading": "Die Probe bis zum Ende tragen",
+            "text": "Eine kleine Probe nehme ich mit in die Tage, an denen ich den Duft später tatsächlich tragen könnte. Nach dem ersten Sprühen muss sie bei mir noch nichts entscheiden. Ich schaue manchmal am nächsten Morgen, ob ich Lust habe, sie wieder zu nutzen.\n\nWenn ich am Ende der Probe immer noch Freude am Duft habe, weiß ich schon mehr über meinen Bedarf. Bei einem Duft für wenige Abende im Jahr kann die Probe oder Reisegröße eine Weile ausreichen.",
+            "primaryHref": "/duftwissen/parfum-testen",
+            "primaryLabel": "So teste ich Parfum"
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part2",
           "type": "richtext",
-          "name": "Angebote auf dem Markt prüfen",
+          "name": "Den Preis pro Milliliter sinnvoll lesen",
           "visible": true,
           "content": {
-            "heading": "Angebote auf dem Markt prüfen",
-            "text": "Preise in Videos können nach Land, Größe und Zeitpunkt variieren. Prüfe den Preis beim Händler, bevor du bestellst."
+            "heading": "Den Preis pro Milliliter sinnvoll lesen",
+            "text": "Als Rechenbeispiel nehme ich 30 ml für 30 Euro und 100 ml für 65 Euro. Die kleinere Größe kostet 1 Euro pro Milliliter, die größere 65 Cent. Wenn ich den Duft selten trage, kann ich mit den 30 ml erst einmal 35 Euro beim Kauf sparen.\n\nIch rechne den Preis pro Milliliter gern aus, wenn ich mich zwischen zwei Größen entscheide. Ich schaue auch auf den Gesamtpreis, wie oft ich zum Flakon greife und ob mir eine kleine Größe reicht."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part3",
+          "type": "richtext",
+          "name": "Ähnliche Richtungen fair vergleichen",
+          "visible": true,
+          "content": {
+            "heading": "Ähnliche Richtungen fair vergleichen",
+            "text": "Wenn du warm-würzige Düfte magst, probier zwei in dieser Richtung, die ins Budget passen. Ich vergleiche den Eindruck ein paar Stunden später. Vielleicht wirkt die eine Probe für mich trockener, die andere süßer. Das ist im Alltag informativer als die Reihenfolge in einem Video.\n\nWenn du bei einem günstigeren Duft nach Tagen immer noch gern zum Handgelenk greifst, hast du einen guten Kandidaten. Wähl einen Händler, dessen Angaben zu Größe, Versand und Rückgabe du gut nachvollziehen kannst."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part4",
+          "type": "richtext",
+          "name": "Mein kurzer Check vor dem Bestellen",
+          "visible": true,
+          "content": {
+            "heading": "Mein kurzer Check vor dem Bestellen",
+            "text": "Ich schreibe mir auf, wann ich den Duft tragen würde, womit ich ihn verglichen habe und welche Menge ich tatsächlich möchte. Wenn du bei einer dieser Fragen noch unsicher bist, lohnt sich der zweite Hauttest.\n\nWenn dir noch ein Vergleich fehlt, such nach deinem Anlass im Duftfinder und probier eine Alternative aus. Bei Links mit Provision steht der Hinweis direkt bei der Empfehlung.",
+            "primaryHref": "/duftfinder",
+            "primaryLabel": "Duftfinder ausprobieren"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "Fragen zum Beitrag",
+          "visible": true,
+          "content": {
+            "heading": "Fragen zum Beitrag",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Lohnt sich ein großer Flakon bei einem Angebot?",
+                "text": "Ich schaue auf Gesamtpreis, vorhandene Düfte und wie oft ich ihn tragen würde. Wenn ich einen Duft gut kenne und häufig auftrage, kann der bessere Milliliterpreis interessant sein."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Wie finde ich mit kleinem Budget eine Richtung?",
+                "text": "Ich teste zuerst zwei unterschiedliche Duftfamilien und wähle eine Probe aus. Wenn sie bei mehreren Gelegenheiten passt, vergleiche ich Preis und Größe vor dem Kauf."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -1959,7 +2635,9 @@
           "content": {
             "heading": "Finde eine Richtung zum Testen.",
             "primaryLabel": "Duftfinder öffnen",
-            "primaryHref": "/duftfinder"
+            "primaryHref": "/duftfinder",
+            "secondaryHref": "/duftwissen/parfum-testen",
+            "secondaryLabel": "So teste ich Parfum"
           },
           "design": {
             "theme": "dark",
@@ -1972,10 +2650,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -1998,8 +2673,8 @@
           "name": "Auftakt",
           "visible": true,
           "content": {
-            "heading": "Ein Platz für deine nächste Duftidee.",
-            "text": "Durchstöbere den Katalog oder frag nach einem Duft, der dich interessiert.",
+            "heading": "Dein nächster Duft.",
+            "text": "Ich habe drei beispielhafte Probensets zusammengestellt. Stöbere durch frische, holzige und warme Duftrichtungen und probier den Warenkorb aus.",
             "subheading": "SHOP",
             "image": {
               "src": "/media/project/hero.webp",
@@ -2024,9 +2699,9 @@
             "animation": "reveal",
             "align": "left",
             "heroLayout": "panorama",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "background": "#261c17",
+            "textColor": "#f7eee4",
+            "accentColor": "#e6bb87"
           }
         },
         {
@@ -2035,7 +2710,7 @@
           "name": "Shopmodul",
           "visible": true,
           "content": {
-            "heading": "Aktueller Katalog",
+            "heading": "Im Sortiment stöbern",
             "caption": "catalog"
           },
           "design": {
@@ -2100,8 +2775,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -2112,6 +2786,11 @@
           "content": {
             "heading": "Fragen zum Sortiment",
             "items": [
+              {
+                "id": "sample-checkout",
+                "title": "Kann ich ein Beispielprodukt bestellen?",
+                "text": "Du kannst es in den Warenkorb legen und die Mengen ausprobieren. Die Beispiele sind im Katalog gekennzeichnet. Für diese Artikel ist die Kasse pausiert."
+              },
               {
                 "id": "q1",
                 "title": "Wie erfahre ich, ob etwas verfügbar ist?",
@@ -2135,8 +2814,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         }
       ]
@@ -2148,8 +2826,8 @@
       "locale": "de-DE",
       "translationKey": "contact",
       "seo": {
-        "title": "Kontakt | Scents with Seb",
-        "description": "Schreib Seb zu Duftempfehlungen, Videos oder einer Partnerschaft.",
+        "title": "Kontakt und Duftfragen | Scents with Seb",
+        "description": "Schreib mir auf Deutsch oder Englisch. Stell mir eine Frage zu deinem nächsten Parfum, zu meinen Reels oder zu einer Zusammenarbeit.",
         "image": "/media/project/sebastian.webp"
       },
       "sections": [
@@ -2218,6 +2896,29 @@
           }
         },
         {
+          "id": "guide-next-1",
+          "type": "richtext",
+          "name": "Was mir bei deiner Duftfrage hilft",
+          "visible": true,
+          "content": {
+            "heading": "Was mir bei deiner Duftfrage hilft",
+            "text": "Schreib mir, für welchen Anlass du suchst, was dir bisher gefällt und welches Budget du ungefähr im Kopf hast. „Ich suche fürs Büro, mag etwas Herbes und weiß noch nicht, ob Holz passt“ hilft mir, deine Frage einzuordnen.\n\nWenn du schon zwei Proben verglichen hast, beschreib kurz, wann du sie getragen hast und was dir später aufgefallen ist. Für eine Kooperation reichen beim ersten Kontakt ein paar Sätze zu Produkt, Idee und Zeitplan."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "next",
           "type": "cards",
           "name": "Kann ich dir direkt weiterhelfen?",
@@ -2262,8 +2963,41 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "Gut zu wissen",
+          "visible": true,
+          "content": {
+            "heading": "Gut zu wissen",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Kann ich dir auf Englisch schreiben?",
+                "text": "Ja, gern auf Deutsch oder Englisch. Wenn sich deine Frage auf ein Reel bezieht, schick mir den Namen des Beitrags oder den Link mit."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Wo finde ich frühere Reels?",
+                "text": "Auf der Reels-Seite habe ich einige Beiträge nach Themen gesammelt, von Gym bis Sommer. Dort kommst du auch direkt zu den Originalen auf Instagram."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
           }
         }
       ]
@@ -2302,33 +3036,6 @@
             "animation": "none",
             "align": "left"
           }
-        },
-        {
-          "id": "back",
-          "type": "cta",
-          "name": "Weiter stöbern",
-          "visible": true,
-          "content": {
-            "heading": "Weiter stöbern",
-            "primaryLabel": "Zum Shop",
-            "primaryHref": "/shop"
-          },
-          "design": {
-            "theme": "dark",
-            "headingFont": "display",
-            "fontScale": 1,
-            "radius": 28,
-            "border": 0,
-            "spacing": "compact",
-            "width": "wide",
-            "imageSide": "right",
-            "columns": 3,
-            "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
-          }
         }
       ]
     },
@@ -2339,8 +3046,8 @@
       "locale": "de-DE",
       "translationKey": "partners",
       "seo": {
-        "title": "Partner & Empfehlungen | Scents with Seb",
-        "description": "Empfehlungen, Herstellerlinks und Kontakt für Kooperationen mit Sebastian Maschberger.",
+        "title": "Kooperationen und Affiliate-Links | Scents with Seb",
+        "description": "Ich erkläre, wie ich Duftempfehlungen kennzeichne. Was ich für eine Kooperation rund um Parfum, Reels oder Duftwissen wissen möchte.",
         "image": "/media/project/hero.webp"
       },
       "sections": [
@@ -2383,7 +3090,7 @@
           "visible": true,
           "content": {
             "heading": "Kanäle und Empfehlungen",
-            "text": "Affiliate-Links sind als Werbung gekennzeichnet. Wenn du darüber einkaufst, kann ich eine Provision erhalten.",
+            "text": "Hier findest du ein paar Anlaufstellen zum Weiterstöbern. Die Musterlinks führen direkt zum Anbieter.",
             "items": [
               {
                 "id": "explorer",
@@ -2423,6 +3130,29 @@
                 "meta": "EIGENER KANAL",
                 "href": "https://www.instagram.com/scentswithseb/",
                 "label": "Instagram-Profil öffnen"
+              },
+              {
+                "id": "mykonos",
+                "title": "Mykonos",
+                "text": "In meinem Reel zu Reisedüften habe ich Mykonos markiert. Hier kannst du dir anschauen, welche Düfte die Marke anbietet.",
+                "href": "https://officialmykonos.com/",
+                "label": "Zu Mykonos",
+                "meta": "AUS MEINEM REISE-REEL",
+                "icon": "external-link",
+                "tags": [
+                  "affiliate-example"
+                ]
+              },
+              {
+                "id": "notino",
+                "title": "Lattafa bei Notino",
+                "text": "Wenn du dir die Auswahl für warme oder würzige Proben ansehen möchtest, ist der Lattafa-Katalog ein Beispiel zum Weiterstöbern.",
+                "href": "https://www.notino.de/lattafa/",
+                "label": "Lattafa-Auswahl ansehen",
+                "icon": "external-link",
+                "tags": [
+                  "affiliate-example"
+                ]
               }
             ]
           },
@@ -2437,8 +3167,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -2467,6 +3196,54 @@
           }
         },
         {
+          "id": "guide-contact-1",
+          "type": "richtext",
+          "name": "Wie ich Werbung und Affiliate-Links kennzeichne",
+          "visible": true,
+          "content": {
+            "heading": "Wie ich Werbung und Affiliate-Links kennzeichne",
+            "text": "Wenn mir ein Link eine Provision bringen kann, findest du den Hinweis direkt daneben. Bezahlte Kooperationen kennzeichne ich am jeweiligen Beitrag. Was ich am Duft wahrnehme und in welcher Situation ich ihn tragen würde, gehört für mich weiterhin in die Beschreibung.\n\nPreise, Versand und Bedingungen prüfst du beim jeweiligen Anbieter. Wenn ich einen Duft in einem Reel bespreche, ist eine kleine Probe für mich ein guter Einstieg, bevor du mehr ausgibst."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-contact-2",
+          "type": "richtext",
+          "name": "Was ich für eine Duftkooperation brauche",
+          "visible": true,
+          "content": {
+            "heading": "Was ich für eine Duftkooperation brauche",
+            "text": "Schreibt mir, welcher Duft oder welches Projekt im Mittelpunkt steht, an wen ihr euch richtet und wann der Beitrag erscheinen soll. Für ein Reel interessiert mich, ob ihr euch einen Vergleich, eine Vorstellung oder eine Anwendung im Alltag vorstellt.\n\nWenn es um Inhalte auf meiner Website geht, sagt gern auch, welche Fragen Leser danach beantworten können sollen. In meinen Reels seht ihr, wie ich über Anlässe, Budget und Duftideen spreche.",
+            "primaryHref": "/reels",
+            "primaryLabel": "Meine Duft-Reels"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "contact",
           "type": "cta",
           "name": "Eine Idee gemeinsam durchdenken.",
@@ -2487,10 +3264,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -2621,8 +3395,8 @@
       "locale": "en-GB",
       "translationKey": "home",
       "seo": {
-        "title": "Scents with Seb · Fragrance & honest reviews",
-        "description": "Explore affordable fragrance ideas with Sebastian Maschberger. Watch reels, find scent families and get practical testing tips.",
+        "title": "Fragrance, Scent Finder and Reviews | Scents with Seb",
+        "description": "I’m Sebastian Maschberger. Find my fragrance reels, ideas for what to wear and practical guides to sampling, comparing and buying perfume.",
         "image": "/media/project/hero.webp"
       },
       "sections": [
@@ -2633,7 +3407,7 @@
           "visible": true,
           "content": {
             "heading": "Smell good.\nChoose well.",
-            "text": "Fragrance reviews and everyday scent ideas, from first spray to drydown.",
+            "text": "I’m Seb. Find my fragrance reels, everyday scent ideas and ways to try something new on a smaller budget.",
             "subheading": "SEB’S FRAGRANCE JOURNAL",
             "image": {
               "src": "/media/project/hero.webp",
@@ -2658,9 +3432,9 @@
             "animation": "reveal",
             "align": "left",
             "heroLayout": "panorama",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "background": "#261c17",
+            "textColor": "#f7eee4",
+            "accentColor": "#e6bb87"
           }
         },
         {
@@ -2715,6 +3489,63 @@
           },
           "design": {
             "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "duftverlauf",
+          "type": "workflow-demo",
+          "name": "How a fragrance develops",
+          "visible": true,
+          "content": {
+            "heading": "How a fragrance develops",
+            "text": "I check in on what I smell after spraying. Go through three moments and see what you notice first and what stays with you the next time you try a sample.",
+            "items": [
+              {
+                "id": "scent-stage-1",
+                "title": "Opening",
+                "text": "With fresh scents I often notice bright citrus just after spraying. What do you smell first? Note a word and give the sample some time.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Fresh fragrance with lime peel",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-2",
+                "title": "Heart",
+                "text": "As the opening settles, something green, floral or spicy can come through more clearly. This is often when I get a feel for the character of a fragrance.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "A bottle framed by wood and green plants",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-3",
+                "title": "Drydown",
+                "text": "A few hours later I smell what’s still close to my skin. Maybe it’s woods, a little sweetness or warm amber. That’s when I ask if I’d like to wear it again tomorrow.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "A bottle in warm amber light",
+                  "position": "50% 50%"
+                }
+              }
+            ],
+            "primaryHref": "/en/fragrance-notes",
+            "primaryLabel": "Explore my fragrance guides"
+          },
+          "design": {
+            "theme": "soft",
             "headingFont": "display",
             "fontScale": 1,
             "radius": 28,
@@ -2790,8 +3621,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -2821,6 +3651,31 @@
             "imageSide": "left",
             "columns": 3,
             "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-about-1",
+          "type": "richtext",
+          "name": "How I get to know a new fragrance",
+          "visible": true,
+          "content": {
+            "heading": "How I get to know a new fragrance",
+            "text": "Before I buy a bottle, I think about when I’d wear it. People sit close to me at a desk. Dinner out has a different atmosphere. I can love a scent in one situation and happily leave it at home the next day.\n\nThen I spend some time with a small sample on my skin. The opening is fun to smell. I often have a better idea whether I’d wear it again once I’ve checked in on it a few hours later.",
+            "primaryHref": "/en/fragrance-notes/testing-a-fragrance",
+            "primaryLabel": "How I test perfume"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -2921,6 +3776,18 @@
                 "meta": "SPICY · BRAND LINK",
                 "href": "https://lattafa.com/product/khamrah/",
                 "label": "See fragrance notes"
+              },
+              {
+                "id": "mykonos",
+                "title": "Mykonos",
+                "text": "I tagged Mykonos in my travel fragrance reel. Here’s a place to look through the brand’s own fragrances.",
+                "href": "https://officialmykonos.com/",
+                "label": "Visit Mykonos",
+                "meta": "FROM MY TRAVEL FRAGRANCE REEL",
+                "icon": "external-link",
+                "tags": [
+                  "affiliate-example"
+                ]
               }
             ],
             "primaryLabel": "Partners and links",
@@ -2937,8 +3804,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -2982,8 +3848,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -3008,10 +3873,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -3023,8 +3885,8 @@
       "locale": "en-GB",
       "translationKey": "finder",
       "seo": {
-        "title": "Scent finder | Scents with Seb",
-        "description": "Explore fragrance families by occasion and save ideas for your next test.",
+        "title": "Scent Finder for Work, Daily Wear and Evenings | Scents with Seb",
+        "description": "Find fragrance ideas by occasion and scent family. Save a couple of directions you like and see how they wear on your skin.",
         "image": "/media/project/fresh.webp"
       },
       "sections": [
@@ -3178,8 +4040,55 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-finder-1",
+          "type": "richtext",
+          "name": "How I use the scent finder",
+          "visible": true,
+          "content": {
+            "heading": "How I use the scent finder",
+            "text": "Choose an occasion first, then a scent family if you already have one in mind. For a normal workday, I might start with “Everyday” and something fresh. If you enjoy warmer fragrances, try the same occasion with “Warm” and see what you’d like to smell on yourself.\n\nSave the ideas you’re curious about. Your saved list lives in this browser. When you get to sampling, a couple of words about each direction can help you remember why you picked it."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-finder-2",
+          "type": "richtext",
+          "name": "How I think about work, the gym and evenings",
+          "visible": true,
+          "content": {
+            "heading": "How I think about work, the gym and evenings",
+            "text": "At work and in the gym there are often people close by. I prefer to try a fragrance with a light application and see how much of it I can smell around me. For an evening, I might look for dry woods or a little spice, depending on what I like and where I’m going.\n\nNext, wear a sample in a similar setting. My testing guide walks through the blotter, skin test and how to check the drydown later.",
+            "primaryHref": "/en/fragrance-notes/testing-a-fragrance",
+            "primaryLabel": "How I test perfume"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
           }
         },
         {
@@ -3262,6 +4171,16 @@
                 "id": "q2",
                 "title": "What does drydown mean?",
                 "text": "It is the later phase of a fragrance on your skin, after the opening notes have faded."
+              },
+              {
+                "id": "editorial-question-1",
+                "title": "Why did my filters leave me with no ideas?",
+                "text": "If a combination comes up empty, set the family back to “All” and keep your occasion selected. That gives you a look at the other directions available for that moment."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Where are my saved ideas?",
+                "text": "Open Saved at the top of the finder. Your choices stay on this device in the same browser while its site data is available."
               }
             ]
           },
@@ -3276,8 +4195,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -3301,10 +4219,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -3316,8 +4231,8 @@
       "locale": "en-GB",
       "translationKey": "reels",
       "seo": {
-        "title": "Reels | Scents with Seb",
-        "description": "Original Scents with Seb reels on gym scents, affordable date-night fragrances, travel and everyday perfume.",
+        "title": "My Fragrance Reels and Reviews | Scents with Seb",
+        "description": "Watch my short Instagram reels on gym fragrance, summer scent ideas and options worth sampling on a smaller budget.",
         "image": "/media/project/reel-2.webp"
       },
       "sections": [
@@ -3488,6 +4403,90 @@
           }
         },
         {
+          "id": "guide-follow-1",
+          "type": "richtext",
+          "name": "How I take an idea from a reel to a sample",
+          "visible": true,
+          "content": {
+            "heading": "How I take an idea from a reel to a sample",
+            "text": "When a fragrance in a video catches your attention, think about when you’d want to try it. With a summer scent, I’m interested in how it smells on a warm afternoon. With a gym scent, I’d try it somewhere quiet first and check how noticeable it is at close range.\n\nA small sample lets you give the idea another try on a different day. If it’s the occasion that interests you, my scent finder can give you more directions to explore.",
+            "primaryHref": "/en/scent-finder",
+            "primaryLabel": "Try the scent finder"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-follow-2",
+          "type": "richtext",
+          "name": "Which reel fits your question?",
+          "visible": true,
+          "content": {
+            "heading": "Which reel fits your question?",
+            "text": "If you’re curious about fragrance for training, start with the gym reel above. You’ll find videos on warmer days and more affordable options in the collection too. I like coming away from a video with a clear idea of what I’d like to smell next time I’m in a shop.\n\nIf a note is new to you, my guides can give it some context. With a few samples you might find a whole direction you enjoy, even if you pass on the bottle from the video.",
+            "primaryHref": "/en/fragrance-notes",
+            "primaryLabel": "My fragrance guides"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "Questions about my reels",
+          "visible": true,
+          "content": {
+            "heading": "Questions about my reels",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Can I watch the reels directly on Instagram?",
+                "text": "Yes. Each reel links to my original post. You can also choose to load the Instagram video at the top of this page."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Which reel should I watch if I’m on a budget?",
+                "text": "Take a look at the reel on lower-cost options. If something catches your eye, I’d look for a sample before buying and see how often you’d wear it."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "follow",
           "type": "cta",
           "name": "Looking for fragrance ideas for a specific occasion?",
@@ -3508,10 +4507,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -3523,8 +4519,8 @@
       "locale": "en-GB",
       "translationKey": "notes",
       "seo": {
-        "title": "Fragrance notes | Scents with Seb",
-        "description": "Learn to test perfume, recognise fragrance families and compare options by budget.",
+        "title": "Fragrance Guides: How to Test, Notes and Budget | Scents with Seb",
+        "description": "I explain fragrance families, notes, drydown and longevity, with practical guides to testing and comparing perfume.",
         "image": "/media/project/woods.webp"
       },
       "sections": [
@@ -3622,6 +4618,111 @@
           }
         },
         {
+          "id": "duftverlauf",
+          "type": "workflow-demo",
+          "name": "How a fragrance develops",
+          "visible": true,
+          "content": {
+            "heading": "How a fragrance develops",
+            "text": "I check in on what I smell after spraying. Go through three moments and see what you notice first and what stays with you the next time you try a sample.",
+            "items": [
+              {
+                "id": "scent-stage-1",
+                "title": "Opening",
+                "text": "With fresh scents I often notice bright citrus just after spraying. What do you smell first? Note a word and give the sample some time.",
+                "image": {
+                  "src": "/media/project/fresh.webp",
+                  "alt": "Fresh fragrance with lime peel",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-2",
+                "title": "Heart",
+                "text": "As the opening settles, something green, floral or spicy can come through more clearly. This is often when I get a feel for the character of a fragrance.",
+                "image": {
+                  "src": "/media/project/woods.webp",
+                  "alt": "A bottle framed by wood and green plants",
+                  "position": "50% 50%"
+                }
+              },
+              {
+                "id": "scent-stage-3",
+                "title": "Drydown",
+                "text": "A few hours later I smell what’s still close to my skin. Maybe it’s woods, a little sweetness or warm amber. That’s when I ask if I’d like to wear it again tomorrow.",
+                "image": {
+                  "src": "/media/project/amber.webp",
+                  "alt": "A bottle in warm amber light",
+                  "position": "50% 50%"
+                }
+              }
+            ],
+            "primaryHref": "/en/fragrance-notes/testing-a-fragrance",
+            "primaryLabel": "My guide to testing fragrance"
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 28,
+            "border": 0,
+            "spacing": "normal",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "reveal",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-references-1",
+          "type": "richtext",
+          "name": "Recognise notes as you sample",
+          "visible": true,
+          "content": {
+            "heading": "Recognise notes as you sample",
+            "text": "By “top notes” I mean the first impression after spraying. The heart is the character that can become clearer as the opening settles. When I talk about the base or drydown, I’m describing what stays with me later. Some fragrances change quite a bit. Others smell fairly similar over time.\n\nWhen I meet a fragrance for the first time, I write down what I smell. It can be as simple as “dry”, “sweet” or “reminds me of lemon peel”. Then I like to look at the brand’s note list to see if it gives me a few more words for it.",
+            "primaryHref": "/en/fragrance-notes/fragrance-families",
+            "primaryLabel": "My guide to fragrance families"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-references-2",
+          "type": "richtext",
+          "name": "Tell longevity and sillage apart",
+          "visible": true,
+          "content": {
+            "heading": "Tell longevity and sillage apart",
+            "text": "Longevity is how long I can still notice a scent. Smelling it on my wrist at the end of the day tells me little about how far it carries around a room. Sillage is the trail people might smell as you pass by.\n\nFor the office, I want to see whether I can pleasantly catch the scent as I move around. If how strongly it carries matters, I’ll ask someone I trust how it smells near me. I learn more from that than from sniffing the same wrist all afternoon."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "references",
           "type": "affiliate-links",
           "name": "Partner links",
@@ -3669,8 +4770,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -3690,6 +4790,16 @@
                 "id": "q2",
                 "title": "What does drydown mean?",
                 "text": "It is the later phase of a fragrance on your skin, after the opening notes have faded."
+              },
+              {
+                "id": "editorial-question-1",
+                "title": "Does eau de parfum always last longer than eau de toilette?",
+                "text": "The label gives you a clue about concentration. The formulas may differ. I put the version I’m interested in on my skin and see how it wears a few hours later."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Where do I start if perfumes all smell similar to me?",
+                "text": "Try two clearly different directions on separate blotters, such as citrus and warm woods. Label the strips and smell them again after taking a little break."
               }
             ]
           },
@@ -3704,8 +4814,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -3729,10 +4838,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -3744,8 +4850,8 @@
       "locale": "en-GB",
       "translationKey": "about",
       "seo": {
-        "title": "About Seb | Scents with Seb",
-        "description": "Sebastian Maschberger is the creator behind Scents with Seb, with videos about fragrances for everyday wear, the gym and special occasions.",
+        "title": "About Me, Sebastian Maschberger | Scents with Seb",
+        "description": "I’m Seb and I enjoy sharing what I like about fragrance. Here’s how I test scents, think about cost and find ideas for my reels.",
         "image": "/media/project/sebastian.webp"
       },
       "sections": [
@@ -3864,8 +4970,57 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-partner-1",
+          "type": "richtext",
+          "name": "What I enjoy about affordable fragrance",
+          "visible": true,
+          "content": {
+            "heading": "What I enjoy about affordable fragrance",
+            "text": "I started Scents with Seb to share how much fun you can have with fragrance on a smaller budget. I’m curious whether I end up wearing a sample more than once. Reaching for it again the next morning tells me a lot about my own taste.\n\nBefore buying, I ask when the scent fits into my week. If I already wear two similar bottles, a sample is often plenty. If I finish it and I miss it, I can think about a larger size.",
+            "primaryHref": "/en/fragrance-notes/budget",
+            "primaryLabel": "My budget guide"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-partner-2",
+          "type": "richtext",
+          "name": "How I talk about a fragrance",
+          "visible": true,
+          "content": {
+            "heading": "How I talk about a fragrance",
+            "text": "I try to describe what I smell in a way you can picture. Is there a bitter edge that reminds me of citrus peel? Does it get warmer later? Would I wear it in a small room? You can try all of that for yourself with a sample.\n\nIf we smell the same fragrance differently, I’m curious what you get from it. Tell me when you wore it and what was left on your skin a few hours later.",
+            "primaryHref": "/en/contact",
+            "primaryLabel": "Write to me"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
           }
         },
         {
@@ -3890,10 +5045,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -3905,8 +5057,8 @@
       "locale": "en-GB",
       "translationKey": "testing",
       "seo": {
-        "title": "How to test and compare perfume | Scents with Seb",
-        "description": "From a paper strip to the drydown on skin.",
+        "title": "How to Test Perfume: Blotters, Skin and Drydown | Scents with Seb",
+        "description": "My step-by-step way to compare fragrances, from first impressions on paper to a few hours on skin and deciding on a bottle.",
         "image": "/media/project/fresh.webp"
       },
       "sections": [
@@ -3917,8 +5069,8 @@
           "visible": true,
           "content": {
             "heading": "How to test and compare perfume",
-            "text": "From a paper strip to the drydown on skin.",
-            "subheading": "SCENTS WITH SEB",
+            "text": "I start with labelled blotters, wear a favourite on my skin and check in on it throughout the day. Here’s how I go from the shop counter to a second sample wear.",
+            "subheading": "Fragrance guide · Sebastian Maschberger",
             "image": {
               "src": "/media/project/fresh.webp",
               "alt": "Light perfume bottle with limes and green leaves",
@@ -3943,69 +5095,151 @@
         {
           "id": "part0",
           "type": "richtext",
-          "name": "Start with a blotter",
+          "name": "Bring a question with you",
           "visible": true,
           "content": {
-            "heading": "Start with a blotter",
-            "text": "Spray each fragrance onto its own paper strip and label it. Give it a moment before judging the opening."
+            "heading": "Bring a question with you",
+            "text": "Are you looking for something for a small office, a warm day or a night out? I pick my occasion before I go. It makes it easier to decide which impressions in the shop I want to follow up on.\n\nIf you’re comparing A and B, keep the selection small. I usually start with two or three candidates. I like to step out for some fresh air and come back another time if there’s more I want to smell."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part1",
           "type": "richtext",
-          "name": "Try a favourite on skin",
+          "name": "Make a shortlist on paper",
           "visible": true,
           "content": {
-            "heading": "Try a favourite on skin",
-            "text": "Apply a fragrance on one wrist. Let it dry, then check back after an hour to see how the notes change."
+            "heading": "Make a shortlist on paper",
+            "text": "I label each blotter straight away and spray one fragrance on each. Give the strip a little time to dry and smell it from a short distance. Write down a word or two, such as “bright and bitter” or “warm and sweet”.\n\nI keep the strips apart so they don’t pick up each other’s scent. If they smell different later, that’s a reason to have another look. To see how one wears on me, I pick a favourite to sample."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part2",
           "type": "richtext",
-          "name": "Keep a short note",
+          "name": "Wear one favourite on skin",
           "visible": true,
           "content": {
-            "heading": "Keep a short note",
-            "text": "Note the occasion, how noticeable it was and what you thought of the base. Next time you can compare with more intention."
+            "heading": "Wear one favourite on skin",
+            "text": "I apply a small amount to clean, unbroken skin and let it dry. For a same-day comparison you can wear a different candidate on each wrist. I write down which one is where. If your skin is sensitive, follow the maker’s directions and skip the test if your skin is already irritated.\n\nI smell it soon after spraying, again when the opening settles and later in the day. The time is just a note to help me remember when I noticed each part of the fragrance."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part3",
+          "type": "richtext",
+          "name": "Get a feel for the drydown and strength",
+          "visible": true,
+          "content": {
+            "heading": "Get a feel for the drydown and strength",
+            "text": "Later, I ask what I can still pick out. Has the citrus faded into soft woods? Do I catch a hint as I move, or can I smell it only right against my wrist? That helps me picture how it will wear for the occasion.\n\nI like taking it out for a second day. Warmth, clothing and where you go can all make a difference. Give it a chance to wear the way you’re planning to use it."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part4",
+          "type": "richtext",
+          "name": "Decide whether you’d buy a bottle",
+          "visible": true,
+          "content": {
+            "heading": "Decide whether you’d buy a bottle",
+            "text": "My note might read “office, crisp at first, softer by the afternoon, would wear again”. If I’m torn between two samples, I’ll wear the one I think about first. If I’ve tried it on a few occasions and I’m still unsure, I wait on the bottle.\n\nStart with two different scent families in the finder if you’re still working out what you like.",
+            "primaryHref": "/en/scent-finder",
+            "primaryLabel": "Try the scent finder"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "A couple of common questions",
+          "visible": true,
+          "content": {
+            "heading": "A couple of common questions",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Can perfume smell different on skin and paper?",
+                "text": "Yes. I use a blotter to work out whether I enjoy the general direction, then test it on my skin to decide if I’d like to wear it."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "How long should I test before I buy?",
+                "text": "I wear a favourite for a few hours and, if I can, try it on another day. That gives me time to compare the drydown and see how it wears for the occasion I picked."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -4017,7 +5251,9 @@
           "content": {
             "heading": "Find a direction to try.",
             "primaryLabel": "Open scent finder",
-            "primaryHref": "/en/scent-finder"
+            "primaryHref": "/en/scent-finder",
+            "secondaryHref": "/en/fragrance-notes/fragrance-families",
+            "secondaryLabel": "My guide to fragrance families"
           },
           "design": {
             "theme": "dark",
@@ -4030,10 +5266,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -4045,8 +5278,8 @@
       "locale": "en-GB",
       "translationKey": "families",
       "seo": {
-        "title": "Fragrance families made simple | Scents with Seb",
-        "description": "What makes fresh, woody and warm fragrances feel different on skin.",
+        "title": "Fragrance Families: Fresh, Woody and Warm | Scents with Seb",
+        "description": "How I compare fresh, woody and warm scents, with examples of common notes and a two-sample exercise to explore what you like.",
         "image": "/media/project/woods.webp"
       },
       "sections": [
@@ -4057,8 +5290,8 @@
           "visible": true,
           "content": {
             "heading": "Fragrance families made simple",
-            "text": "What makes fresh, woody and warm fragrances feel different on skin.",
-            "subheading": "SCENTS WITH SEB",
+            "text": "Fresh, woody and warm spicy are three ways I explore a fragrance counter. Here’s what I pay attention to in each family and how you can get more out of comparing two samples.",
+            "subheading": "Fragrance guide · Sebastian Maschberger",
             "image": {
               "src": "/media/project/woods.webp",
               "alt": "Dark bottle on a piece of cedar",
@@ -4083,69 +5316,151 @@
         {
           "id": "part0",
           "type": "richtext",
-          "name": "Fresh",
+          "name": "What a fragrance family can tell you",
           "visible": true,
           "content": {
-            "heading": "Fresh",
-            "text": "Citrus and green accords often stand out first. Notice whether they become dry, soapy, soft or woody later."
+            "heading": "What a fragrance family can tell you",
+            "text": "Families help me narrow the search. When I say “woody”, I might be thinking of dry cedar or something softer like sandalwood. It gives you a direction to explore the next time you sample.\n\nA fragrance can take in several families. A bright citrus opening and a dry base are something you can notice at different points on the same blotter. I pay attention to which direction stands out to me later."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part1",
           "type": "richtext",
-          "name": "Woods",
+          "name": "Fresh can be bitter, green or airy",
           "visible": true,
           "content": {
-            "heading": "Woods",
-            "text": "Cedar often feels dry while sandalwood can be soft. Vetiver may read green, smoky or earthy. The combination matters."
+            "heading": "Fresh can be bitter, green or airy",
+            "text": "With citrus I think about peel, juice and the bitter white pith. “Green” often suggests a leafy, herbal or crisp smell to me. A marine impression might remind me of cool air or a slightly salty breeze.\n\nIf you enjoy fresh scents, try two kinds side by side. See whether the freshness is still there later, or if the scent settles into a very different base. It can make a big difference to how I like it on an ordinary day."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part2",
           "type": "richtext",
-          "name": "Warmth",
+          "name": "Woods from dry to soft",
           "visible": true,
           "content": {
-            "heading": "Warmth",
-            "text": "Amber often describes a warm accord. A composition may emphasise sweetness, spices, resins or woods."
+            "heading": "Woods from dry to soft",
+            "text": "When I smell cedar, it sometimes makes me think of pencil shavings. Sandalwood can come across as softer to me. Vetiver can smell dry, grassy or earthy, depending on the fragrance. The note list on the box can give me a clue about where to start.\n\nI’ll wear a dry woody scent and a softer one on two different days. If I’m still thinking about the first on the second day, I make a note of what I miss. It might be that drier finish."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part3",
+          "type": "richtext",
+          "name": "Separate spice from sweetness",
+          "visible": true,
+          "content": {
+            "heading": "Separate spice from sweetness",
+            "text": "Warm fragrances might remind me of cinnamon, cardamom, vanilla or resin. Some smell like dry spice to me. Others stay softer and sweeter on skin. Before buying a bottle, I’d work out which kind of warmth I actually want to wear.\n\nLattafa Khamrah and Montblanc Explorer are two examples you’ll find linked from my fragrance guides. Look at the official notes, then see which parts stand out to you when you try the scents yourself."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part4",
+          "type": "richtext",
+          "name": "Find a direction with two blotters",
+          "visible": true,
+          "content": {
+            "heading": "Find a direction with two blotters",
+            "text": "Choose a fresh scent and a woody or warm scent. Label the strips, alternate between them and give both a little time. Which would you be happy wearing tomorrow? What would be the occasion? Those answers will help you the next time you sample.\n\nIn the scent finder you can filter by family or start with a setting. If you’re still working out your taste, try one family at a time.",
+            "primaryHref": "/en/scent-finder",
+            "primaryLabel": "Try the scent finder"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "A couple of common questions",
+          "visible": true,
+          "content": {
+            "heading": "A couple of common questions",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Can a fragrance be fresh and woody?",
+                "text": "Yes. I like to see how a fresh opening settles over the day. That tells me whether the woods or the freshness come through more strongly for me later."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Which fragrance family is best for everyday wear?",
+                "text": "I’d start with what you enjoy smelling close to you. For many settings it helps to try it in a small room and see whether you still enjoy it after a few hours."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -4157,7 +5472,9 @@
           "content": {
             "heading": "Find a direction to try.",
             "primaryLabel": "Open scent finder",
-            "primaryHref": "/en/scent-finder"
+            "primaryHref": "/en/scent-finder",
+            "secondaryHref": "/en/fragrance-notes/testing-a-fragrance",
+            "secondaryLabel": "How I test perfume"
           },
           "design": {
             "theme": "dark",
@@ -4170,10 +5487,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -4185,8 +5499,8 @@
       "locale": "en-GB",
       "translationKey": "budget",
       "seo": {
-        "title": "Explore fragrance on a budget | Scents with Seb",
-        "description": "How to compare samples, bottle sizes and prices.",
+        "title": "Choosing Affordable Perfume | My Fragrance Budget Guide",
+        "description": "How I try a sample first, work out cost per millilitre and choose a bottle size that fits the way I wear fragrance.",
         "image": "/media/project/amber.webp"
       },
       "sections": [
@@ -4197,8 +5511,8 @@
           "visible": true,
           "content": {
             "heading": "Explore fragrance on a budget",
-            "text": "How to compare samples, bottle sizes and prices.",
-            "subheading": "SCENTS WITH SEB",
+            "text": "On a smaller budget, I like to put a little money towards a sample first. Once I know how it smells on my skin and when I’d wear it, I can decide which size makes sense.",
+            "subheading": "Fragrance guide · Sebastian Maschberger",
             "image": {
               "src": "/media/project/amber.webp",
               "alt": "Amber bottle on cinnamon and vanilla pods",
@@ -4223,69 +5537,153 @@
         {
           "id": "part0",
           "type": "richtext",
-          "name": "Start small",
+          "name": "Start with your occasion and budget",
           "visible": true,
           "content": {
-            "heading": "Start small",
-            "text": "A sample gives you several chances to wear the same scent. Find out whether you enjoy the drydown as well as the first impression."
+            "heading": "Start with your occasion and budget",
+            "text": "Pick a situation that actually comes up in your week. If you go into the office most days, I’d start there before spending money on something for special occasions. Set an amount you feel comfortable spending before you shop.\n\nInclude the sample and any shipping in the total. If you can visit a shop and take your time, it can help you explore a couple of directions and choose the right size later."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part1",
           "type": "richtext",
-          "name": "Compare sizes",
+          "name": "Wear the sample until it’s finished",
           "visible": true,
           "content": {
-            "heading": "Compare sizes",
-            "text": "Look at the total price and price per millilitre. A small bottle might be the right size for occasional wear."
+            "heading": "Wear the sample until it’s finished",
+            "text": "I take a small sample into the days I can picture wearing the fragrance. I give myself more than the first spray to decide. Sometimes I’ll check the next morning whether I feel like picking it up again.\n\nIf I still enjoy it after finishing the sample, I have a better idea of how much I’ll use. For something I wear a few evenings a year, a sample or travel size can be enough for a while.",
+            "primaryHref": "/en/fragrance-notes/testing-a-fragrance",
+            "primaryLabel": "How I test perfume"
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
             "align": "left"
           }
         },
         {
           "id": "part2",
           "type": "richtext",
-          "name": "Check your local price",
+          "name": "Put the price per millilitre in context",
           "visible": true,
           "content": {
-            "heading": "Check your local price",
-            "text": "Video prices can vary by country, size and date. Check the retailer price before ordering."
+            "heading": "Put the price per millilitre in context",
+            "text": "Say a 30 ml bottle costs €30 and a 100 ml bottle costs €65. The small one costs €1 per millilitre and the larger one costs 65 cents. If I wear that fragrance rarely, the small bottle still saves me €35 at checkout.\n\nI use the price per millilitre when I’m interested in two sizes. I also look at the overall price, how often I’d reach for the bottle and whether the smaller one covers the way I’d wear it."
           },
           "design": {
             "theme": "light",
             "headingFont": "display",
             "fontScale": 1,
-            "radius": 28,
+            "radius": 24,
             "border": 0,
-            "spacing": "normal",
+            "spacing": "compact",
             "width": "wide",
             "imageSide": "right",
             "columns": 3,
-            "animation": "reveal",
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part3",
+          "type": "richtext",
+          "name": "Compare similar directions fairly",
+          "visible": true,
+          "content": {
+            "heading": "Compare similar directions fairly",
+            "text": "If you enjoy warm spicy fragrances, sample two in that direction that fit your budget. I compare them after a few hours on skin. One might feel drier and the other sweeter to me. That tells me more about wearing either fragrance than where it came in a video.\n\nIf a lower-priced option still has you going back to your wrist over a few days, you have a good candidate. Choose a retailer where you can clearly see the size, delivery cost and returns terms."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "part4",
+          "type": "richtext",
+          "name": "Do my quick check before ordering",
+          "visible": true,
+          "content": {
+            "heading": "Do my quick check before ordering",
+            "text": "I write down when I’d wear it, what else I tried and how much I actually want to buy. If I’m still unsure about one of those, I give the sample a second wear.\n\nIf you need a comparison, look up your occasion in the scent finder and try one more option. Links that could earn a commission carry a label by the recommendation.",
+            "primaryHref": "/en/scent-finder",
+            "primaryLabel": "Try the scent finder"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "A couple of common questions",
+          "visible": true,
+          "content": {
+            "heading": "A couple of common questions",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Is a larger bottle worth buying on sale?",
+                "text": "I consider the full price, what I already wear and how often I’d reach for it. If I know the fragrance well and use it often, the lower price per millilitre can make sense."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "How do I find a direction on a tight budget?",
+                "text": "I try two different families first, then choose one sample. If I enjoy it on a few occasions, I compare the prices and sizes before I buy."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
             "align": "left"
           }
         },
@@ -4297,7 +5695,9 @@
           "content": {
             "heading": "Find a direction to try.",
             "primaryLabel": "Open scent finder",
-            "primaryHref": "/en/scent-finder"
+            "primaryHref": "/en/scent-finder",
+            "secondaryHref": "/en/fragrance-notes/testing-a-fragrance",
+            "secondaryLabel": "How I test perfume"
           },
           "design": {
             "theme": "dark",
@@ -4310,10 +5710,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]
@@ -4336,8 +5733,8 @@
           "name": "Introduction",
           "visible": true,
           "content": {
-            "heading": "A place for your next fragrance idea.",
-            "text": "Browse the catalogue or ask about a fragrance you are curious about.",
+            "heading": "Find your next scent.",
+            "text": "I’ve put together three example discovery sets. Explore fresh, woody and warm fragrance directions and try them in your cart.",
             "subheading": "SHOP",
             "image": {
               "src": "/media/project/hero.webp",
@@ -4362,9 +5759,9 @@
             "animation": "reveal",
             "align": "left",
             "heroLayout": "panorama",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "background": "#261c17",
+            "textColor": "#f7eee4",
+            "accentColor": "#e6bb87"
           }
         },
         {
@@ -4373,7 +5770,7 @@
           "name": "Shop module",
           "visible": true,
           "content": {
-            "heading": "Current catalogue",
+            "heading": "Explore the catalogue",
             "caption": "catalog"
           },
           "design": {
@@ -4438,8 +5835,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -4450,6 +5846,11 @@
           "content": {
             "heading": "Questions about the selection",
             "items": [
+              {
+                "id": "sample-checkout",
+                "title": "Can I order a sample product?",
+                "text": "You can add it to your cart and try out the quantities. Sample products are marked in the catalogue and the checkout is paused for those items."
+              },
               {
                 "id": "q1",
                 "title": "How do I know whether something is available?",
@@ -4473,8 +5874,7 @@
             "imageSide": "right",
             "columns": 2,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         }
       ]
@@ -4486,8 +5886,8 @@
       "locale": "en-GB",
       "translationKey": "contact",
       "seo": {
-        "title": "Contact | Scents with Seb",
-        "description": "Write to Seb about fragrance recommendations, videos or a collaboration.",
+        "title": "Contact and Fragrance Questions | Scents with Seb",
+        "description": "Write to me in English or German about your next fragrance, one of my reels or a potential collaboration.",
         "image": "/media/project/sebastian.webp"
       },
       "sections": [
@@ -4556,6 +5956,29 @@
           }
         },
         {
+          "id": "guide-next-1",
+          "type": "richtext",
+          "name": "What helps me answer your fragrance question",
+          "visible": true,
+          "content": {
+            "heading": "What helps me answer your fragrance question",
+            "text": "Tell me the occasion, what you’ve liked so far and roughly what you want to spend. “I’m looking for something for the office, I like a bitter edge and I’m not sure about woods yet” helps me understand where you’re starting.\n\nIf you’ve compared two samples, tell me when you wore them and what stood out later. For a collaboration, a few sentences about the product, your idea and the timing are plenty for a first message."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "next",
           "type": "cards",
           "name": "Can I help right away?",
@@ -4600,8 +6023,41 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-questions",
+          "type": "faq",
+          "name": "Good to know",
+          "visible": true,
+          "content": {
+            "heading": "Good to know",
+            "items": [
+              {
+                "id": "editorial-question-1",
+                "title": "Can I write to you in English?",
+                "text": "Yes, feel free to write in English or German. If it’s about a reel, include the title or a link to the post."
+              },
+              {
+                "id": "editorial-question-2",
+                "title": "Where can I find earlier reels?",
+                "text": "On my reels page you’ll find a selection of videos on everything from the gym to summer fragrances. You can also follow the links to the original posts on Instagram."
+              }
+            ]
+          },
+          "design": {
+            "theme": "soft",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
           }
         }
       ]
@@ -4640,33 +6096,6 @@
             "animation": "none",
             "align": "left"
           }
-        },
-        {
-          "id": "back",
-          "type": "cta",
-          "name": "Keep exploring",
-          "visible": true,
-          "content": {
-            "heading": "Keep exploring",
-            "primaryLabel": "Back to shop",
-            "primaryHref": "/en/shop"
-          },
-          "design": {
-            "theme": "dark",
-            "headingFont": "display",
-            "fontScale": 1,
-            "radius": 28,
-            "border": 0,
-            "spacing": "compact",
-            "width": "wide",
-            "imageSide": "right",
-            "columns": 3,
-            "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
-          }
         }
       ]
     },
@@ -4677,8 +6106,8 @@
       "locale": "en-GB",
       "translationKey": "partners",
       "seo": {
-        "title": "Partners & recommendations | Scents with Seb",
-        "description": "Recommendations, brand links and collaboration enquiries with Sebastian Maschberger.",
+        "title": "Fragrance Partnerships and Affiliate Links | Scents with Seb",
+        "description": "How I label fragrance recommendations and what I’d like to know about a perfume collaboration, reel or guide.",
         "image": "/media/project/hero.webp"
       },
       "sections": [
@@ -4721,7 +6150,7 @@
           "visible": true,
           "content": {
             "heading": "Channels and recommendations",
-            "text": "Affiliate links are marked as advertising. I may earn a commission if you purchase through one.",
+            "text": "Here are a few places to explore. Example links point directly to the provider.",
             "items": [
               {
                 "id": "explorer",
@@ -4761,6 +6190,29 @@
                 "meta": "MY CHANNEL",
                 "href": "https://www.instagram.com/scentswithseb/",
                 "label": "Open Instagram profile"
+              },
+              {
+                "id": "mykonos",
+                "title": "Mykonos",
+                "text": "I tagged Mykonos in my travel fragrance reel. Here’s a place to look through the brand’s own fragrances.",
+                "href": "https://officialmykonos.com/",
+                "label": "Visit Mykonos",
+                "meta": "FROM MY TRAVEL FRAGRANCE REEL",
+                "icon": "external-link",
+                "tags": [
+                  "affiliate-example"
+                ]
+              },
+              {
+                "id": "notino",
+                "title": "Lattafa at Notino",
+                "text": "If you’re looking for something warm or spicy to sample, the Lattafa range is an example of where I’d look next.",
+                "href": "https://www.notino.co.uk/lattafa/",
+                "label": "Browse the Lattafa range",
+                "icon": "external-link",
+                "tags": [
+                  "affiliate-example"
+                ]
               }
             ]
           },
@@ -4775,8 +6227,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#efe5d8"
+            "align": "left"
           }
         },
         {
@@ -4805,6 +6256,54 @@
           }
         },
         {
+          "id": "guide-contact-1",
+          "type": "richtext",
+          "name": "How I label sponsorships and affiliate links",
+          "visible": true,
+          "content": {
+            "heading": "How I label sponsorships and affiliate links",
+            "text": "If a link could earn me a commission, the label is next to it. I mark paid collaborations on the relevant post. What I smell and where I’d wear it are still things I want to explain in the description.\n\nYou can check the retailer for current prices, shipping and terms. If I cover a fragrance in a reel, I like the idea of trying a small sample before you spend more."
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
+          "id": "guide-contact-2",
+          "type": "richtext",
+          "name": "What helps me with a fragrance collaboration",
+          "visible": true,
+          "content": {
+            "heading": "What helps me with a fragrance collaboration",
+            "text": "Tell me which fragrance or project you’d like to focus on, who it’s for and when you’d like the piece to go out. For a reel, I’m curious whether you have a comparison, an introduction or an everyday setting in mind.\n\nIf you’re thinking about something for the site, tell me what questions you’d like a reader to be able to answer afterwards. My reels give you a feel for how I talk about occasions, budgets and scent ideas.",
+            "primaryHref": "/en/reels",
+            "primaryLabel": "My fragrance reels"
+          },
+          "design": {
+            "theme": "light",
+            "headingFont": "display",
+            "fontScale": 1,
+            "radius": 24,
+            "border": 0,
+            "spacing": "compact",
+            "width": "wide",
+            "imageSide": "right",
+            "columns": 3,
+            "animation": "none",
+            "align": "left"
+          }
+        },
+        {
           "id": "contact",
           "type": "cta",
           "name": "Talk through an idea together.",
@@ -4825,10 +6324,7 @@
             "imageSide": "right",
             "columns": 3,
             "animation": "reveal",
-            "align": "left",
-            "background": "#251916",
-            "textColor": "#fbf7ed",
-            "accentColor": "#ffd7aa"
+            "align": "left"
           }
         }
       ]

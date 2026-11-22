@@ -15,7 +15,8 @@
     "Visuelles CMS",
     "Video-Reels mit Zustimmung",
     "Interaktiver Duftfinder",
-    "Shop mit Checkout und Bestellverwaltung"
+    "Zweisprachiger Beispielshop mit Warenkorb und sofortigem Ein- und Ausschalten im CMS",
+    "Hell/Dunkel mit Dunkel als Standard"
   ],
   "contentSources": [
     "https://www.instagram.com/scentswithseb/",
@@ -29,7 +30,7 @@
   "legalName": "Sebastian Maschberger",
   "audience": "Neugierige Duftinteressierte, alltagsorientiert und preisbewusst, DE und EN.",
   "offer": "Persönliche Duftvideos, Orientierung für Kaufentscheidungen, ein Finder für Duftfamilien und ein Shop.",
-  "style": "Magazin im warmen Creme mit kupferfarbenen Akzenten, Cormorant Garamond, dunkler Parfumfotografie und kompakten iOS-artigen Glaselementen. Die Reel-Vorschauen sind echte Motive des Creators.",
+  "style": "Espresso und warmes Gold, iOS-inspirierte Glasflächen und Editorial-Serifen. Der helle Modus verwendet warme, helle Naturtöne.",
   "siteUrl": "https://scents-with-seb.vercel.app",
   "voice": "Anbieterperspektive, direkte du-Ansprache im Deutschen, freundlich und konkret.",
   "aesthetic": "liquid-glass",
@@ -43,9 +44,9 @@
     }
   },
   "colors": {
-    "primary": "#2b1c18",
-    "accent": "#e7b281",
-    "background": "#f6f1e9"
+    "primary": "#24160e",
+    "accent": "#e6bb87",
+    "background": "#15110f"
   },
   "profile": "editorial"
 }
